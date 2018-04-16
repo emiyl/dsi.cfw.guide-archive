@@ -7,6 +7,7 @@ sidebar:
 
 {% capture notice-1 %}<pre style="background-color: #252b35;border-radius: 5px;">
 
+
     + jerbear64
     + pokecraft98
     + emiyl
@@ -31,7 +32,6 @@ sidebar:
     + Fra
     + takusan
     + smileyhead
-
 </pre>{% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
