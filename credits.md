@@ -14,7 +14,6 @@ sidebar:
     + Robz8
     + Jhynjhiruu
     + GhostLatte
-    + Clyde
     + HamBone41801
     + CatmanFan
     + LukeHasAWii
