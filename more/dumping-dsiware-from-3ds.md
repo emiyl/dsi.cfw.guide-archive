@@ -16,7 +16,7 @@ This guide will allow you to dump DSiWare for use on your DSi console. You will 
 6. Write down the `Title ID` of the DSiWare on the top screen down
 7. Power off the 3DS
 
-## Downgrading
+## Dumping DSiWare
 1. Power on the 3DS while holding **Start** to launch the Luma3DS chainloader menu
 2. Navigate to GodMode9 and press **A** to launch it
 3. Navigate to **[2:] SYSNAND TWLN > title > 00030004**
