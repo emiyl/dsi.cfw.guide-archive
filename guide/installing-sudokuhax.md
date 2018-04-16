@@ -7,7 +7,11 @@ sidebar:
 
 sudokuhax is an exploit of the Sudoku DSiWare game, allowing us to launch the Homebrew Launcher seconds after starting the application. This guide uses ugopwn to install sudokuhax, which is only supported on USA consoles for now. A release for EUR and JPN consoles has been promised soon.
 
-Make sure you have at least 30 blocks of space on your console's internal storage, or you will brick your device. This can be found in **Settings > Data Management > System Memory**.
+This guide currently only supports USA consoles.
+{: .notice style="background-color: #87625a; font-weight: bold;"}
+
+Make sure you have at least 30 blocks of space on your console's internal storage, or you will brick your device.
+{: .notice style="background-color: #7e4d57; font-weight: bold;"}
 
 ## Launching twlnf
 
@@ -48,6 +52,6 @@ Make sure you have at least 30 blocks of space on your console's internal storag
 4. Wait for the ESRB and EA screens to pass
 5. When prompted, touch the screen to load the entrypoint
 
-Sudokuhax will load whatever homebrew you have on your SD card as `boot.nds`. Currently, this is twlnf. It is recommended that you install SRLoader, as it can launch both commercial ROMs and homebrew, and has several emulators built it.
+Sudokuhax will load whatever homebrew you have on your SD card as `boot.nds`. Currently, this is twlnf. It is recommended that you install SRLoader, as it can launch both commercial ROMs and homebrew, and has several emulators built in.
 
 It is recommended that you backup the `nand.bin` file created on your SD card to somewhere safe on your computer.
