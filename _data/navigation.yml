@@ -12,8 +12,8 @@ side:
     children:
       - title: "Preparing your SD card"
         url: /guide/preparing-your-sd-card/
-      - title: "Installing Sudokuhax"
-        url: /guide/installing-sudokuhax/
+      - title: "Installing an Entrypoint"
+        url: /guide/installing-an-entrypoint/
 
   - title: More
     children:

@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Downgrading to 1.4 - DSi Guide</title>
+<!-- begin _includes/seo.html --><title>Installing an Entrypoint (pre-owned title) - DSi Guide</title>
 <meta name="description" content="A complete Nintendo DSi homebrew guide.">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_UK">
 <meta property="og:site_name" content="DSi Guide">
-<meta property="og:title" content="Downgrading to 1.4">
-<meta property="og:url" content="http://localhost:4000/more/downgrading/">
+<meta property="og:title" content="Installing an Entrypoint (pre-owned title)">
+<meta property="og:url" content="http://localhost:4000/guide/installing-an-entrypoint-(pre-owned)/">
 
 
 
@@ -36,7 +36,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/more/downgrading/">
+<link rel="canonical" href="http://localhost:4000/guide/installing-an-entrypoint-(pre-owned)/">
 
 
 
@@ -221,7 +221,7 @@
             
             
 
-            <li><a href="http://localhost:4000/more/downgrading/" class="active">Downgrading</a></li>
+            <li><a href="http://localhost:4000/more/downgrading/" class="">Downgrading</a></li>
           
             
             
@@ -263,7 +263,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Downgrading to 1.4">
+    <meta itemprop="headline" content="Installing an Entrypoint (pre-owned title)">
     
     
     
@@ -271,7 +271,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Downgrading to 1.4
+          <h1 class="page__title" itemprop="headline">Installing an Entrypoint (pre-owned title)
 </h1>
           
         </header>
@@ -281,63 +281,108 @@
         
 		<p class="notice">If you like the guide, please consider donating via <a href="/donations">PayPal</a>.</p>
     <p class="notice">If you have any issues or problems, read the <a href="/help/faq/">FAQ</a> or ask on our <a href="/help/discord/">Discord Server</a>.</p>
-        <p>Downgrading to 1.4 allows for you to use flashcards such as the Acekard 2i which was blocked in later firmwares. This firmware is recommended as it also gets you ready to install CFW on your console when it releases, which only supports firmware version 1.4.</p>
+        <p>We will now use pre-made scripts to simplify the installation of homebrew entrypoints. These entrypoints will allow us to load homebrew within seconds of launching the target application.</p>
 
-<p>You must have a homebrew entrypoint before downgrading. Follow the main guide to install homebrew.</p>
+<h2 id="what-you-need">What you need</h2>
 
-<p>The instructions on this page will include modifying your console’s internal storage (NAND). You alone will be responsible if anything bad happens to your console.</p>
-
-<h2 id="downloads">Downloads</h2>
 <ul>
-  <li>twlnf 1.4 installation script
-    <ul>
-      <li><a href="/assets/files/install-1.4-USA.nfs">USA</a></li>
-      <li><a href="/assets/files/install-1.4-EUR.nfs">EUR</a></li>
-    </ul>
-  </li>
-  <li><a href="/assets/files/NUSDownloader.zip">NUSDownloader</a></li>
+  <li>The <a href="/assets/files/twlnf-entrypoint-pack.zip">twlnf entrypoint installation pack</a></li>
 </ul>
 
-<h2 id="preparing">Preparing</h2>
+<h2 id="preparation">Preparation</h2>
+
 <ol>
-  <li>Make a NAND backup through twlnf and copy <code class="highlighter-rouge">nand.bin</code> from the root of your SD card to your computer
-    <ul>
-      <li>If you already made a NAND backup through twlnf, just copy the <code class="highlighter-rouge">nand.bin</code></li>
-      <li>Do not lose this file! It is very important!</li>
-    </ul>
-  </li>
-  <li>Open NUSDownloader on your omputer</li>
-  <li>Check the “Create Decrypted Contents (*.app)” box</li>
-  <li>Select <strong>Database &gt; System (DSi) &gt; System Menu (Launcher) &gt; [Your Region] &gt; v512 &gt; Start NUS Download!</strong></li>
-  <li>When done, select <strong>Database &gt; System (DSi) &gt; Nintendo DS Cart Whitelist &gt; All &gt; v256 &gt; Start NUS Download!</strong></li>
-  <li>When done, select <strong>Database &gt; System (DSi) &gt; System Settings &gt; [Your Region] &gt; v512 &gt; Start NUS Download!</strong></li>
-  <li>When done, select <strong>Database &gt; System (DSi) &gt; Version Data &gt; [Your Region] &gt; v4 (China) &gt; Start NUS Download!</strong></li>
-  <li>Exit NUS Downloader</li>
-  <li>Run <code class="highlighter-rouge">sort.py</code> to prepare the titles for installation</li>
-  <li>You now have a new folder called <code class="highlighter-rouge">title</code> in your NUS Downloader directory</li>
-  <li>Copy the <code class="highlighter-rouge">title</code> folder to the root of your SD card.</li>
-  <li>Copy the twlnf installation script for your region to the root of your SD card</li>
-  <li>Eject your SD card and insert it into your console</li>
+  <li>Insert your device’s SD card into your computer</li>
+  <li>Copy the contents of the twlnf entrypoint installation <code class="highlighter-rouge">.zip</code> to the root of your SD card</li>
+  <li>Unplug your SD card, and insert it in your DSi</li>
 </ol>
 
-<h2 id="downgrading">Downgrading</h2>
+<h2 id="launching-twlnf">Launching twlnf</h2>
+
 <ol>
-  <li>Ensure your DSi is plugged in throughout downgrading</li>
-  <li>Open your homebrew entrypoint and run twlnf</li>
-  <li>Press <strong>X</strong> to mount the NAND
+  <li>Open the Flipnote Studio application
     <ul>
-      <li>twlnf does not list this as an option</li>
+      <li>Ensure that the <em>booting to Calendar mode</em> is disabled in Flipnote Studio’s settings</li>
     </ul>
   </li>
-  <li>Navigate to the twlnf 1.4 installation script</li>
-  <li>Press <strong>A</strong> to run it</li>
-  <li>When the script is completed, twlnf will show <code class="highlighter-rouge">execution returned 0</code></li>
-  <li>Press <strong>Select</strong> to quit twlnf</li>
-  <li>Press <strong>A</strong> to confirm</li>
-  <li>Your console will power off</li>
+  <li>Select <strong>View Flipnote &gt; SD Card &gt; Select Folder &gt; User &gt; ugopwn</strong></li>
+  <li>Click on the note with the red bottom half</li>
+  <li>Select “Edit”</li>
+  <li>Click on the Flipnote frog icon in the bottom left</li>
+  <li>Click on the film roll icon</li>
+  <li>Select <strong>Copy &gt; Back &gt; Exit</strong></li>
+  <li>Click on the Flipnote frog icon in the bottom left</li>
+  <li>Click on the film roll icon.</li>
+  <li>Click on the single right arrow (the next to last arrow icon) two times
+    <ul>
+      <li>You will see a new frame be created</li>
+    </ul>
+  </li>
+  <li>Click on the paste button exactly 122 times.</li>
+  <li>Select “Erase” and then “Paste”
+    <ul>
+      <li>This should launch twlnf</li>
+    </ul>
+  </li>
 </ol>
 
-<p>Your console should now be on 1.4. Check in System Settings for your version, it should be 1.4 now.</p>
+<h2 id="installing-your-entrypoint">Installing your Entrypoint</h2>
+
+<ol>
+  <li>If prompted in twlnf, press <strong>A</strong> to create a NAND backup
+    <ul>
+      <li>This may take a few minutes</li>
+      <li>Store this NAND backup in a safe location, it is a critical backup</li>
+    </ul>
+  </li>
+  <li>Press <strong>X</strong> to mount the NAND directly</li>
+</ol>
+
+<ul>
+  <li>twlnf does not list this as an option</li>
+</ul>
+
+<ol>
+  <li>Navigate to the .nfs script corresponding with the DSiWare you have
+    <ul>
+      <li>Fieldrunners - <code class="highlighter-rouge">install_fieldrunhax_usa.nfs</code></li>
+      <li>Legends of Exidia - <code class="highlighter-rouge">install_exidiahax_usa.nfs</code></li>
+      <li>Guitar Rock Tour - <code class="highlighter-rouge">install_grtpwn_usa.nfs</code></li>
+      <li>The Legend of Zelda: Four Swords Anniversary - <code class="highlighter-rouge">install_4swordshax_usa.nfs</code></li>
+    </ul>
+  </li>
+  <li>Press <strong>A</strong> to execute the script
+    <ul>
+      <li>If the dry run fails, you do not have the DSiWare installed</li>
+    </ul>
+  </li>
+  <li>Press <strong>A</strong> to install the application to NAND</li>
+  <li>Once finished, press <strong>Select</strong> to quit twlnf</li>
+  <li>Press <strong>A</strong> to confirm
+    <ul>
+      <li>Your console will power off</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="launching-your-entrypoint">Launching your Entrypoint</h2>
+
+<ol>
+  <li>Power on your console</li>
+  <li>Open your exploited application</li>
+  <li>Perform the following:
+    <ul>
+      <li>Fieldrunners - Wait for the game to load, and press <strong>Scores</strong> on the main menu</li>
+      <li>Legends of Exidia - Navigate past the two start screens, select the first save file, and press <strong>Continue</strong></li>
+      <li>Guitar Rock Tour - Scroll down, and press <strong>High Scores</strong> &gt; <strong>Drums</strong> &gt; <strong>Easy</strong></li>
+      <li>The Legend of Zelda: Four Swords Anniversary - Just launch the game, 4swordshax requires no user intervention</li>
+    </ul>
+  </li>
+</ol>
+
+<p>Your entrypoint will load whatever homebrew you have on your SD card as <code class="highlighter-rouge">boot.nds</code>. Currently, this is twlnf. It is recommended that you install SRLoader, as it can launch both commercial ROMs and homebrew, and has several emulators built in.</p>
+
+<p>4swordshax will not work with SRLoader to launch commercial ROMs, however it can still use emulators and homebrew.</p>
 
         
       </section>
