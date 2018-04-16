@@ -32,6 +32,7 @@ sidebar:
     + Fra
     + takusan
     + smileyhead
+    
 </pre>{% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
