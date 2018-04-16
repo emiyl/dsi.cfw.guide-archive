@@ -1,0 +1,28 @@
+# main links
+main:
+  - title: "Credits"
+    url: /credits
+  - title: "Donate"
+    url: /donations
+  - title: "Home"
+    url: https://cfw.guide/
+
+side:
+  - title: Guide
+    children:
+      - title: "Preparing your SD card"
+        url: /guide/preparing-your-sd-card/
+      - title: "Installing Sudokuhax"
+        url: /guide/installing-sudokuhax/
+
+  - title: More
+    children:
+      - title: "Downgrading"
+        url: /more/downgrading/
+      - title: "Dumping DSiWare from 3DS"
+        url: /more/dumping-dsiware-from-3ds/
+
+  - title: Help
+    children:
+      - title: "Discord"
+        url: /help/discord/
