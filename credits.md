@@ -25,7 +25,6 @@ sidebar:
     + Clyde_271
     + BlastedGuy9905
     + Flashed
-    + CatmanFan
     + CloudMcFox
     + mariogamer
     + Fra
