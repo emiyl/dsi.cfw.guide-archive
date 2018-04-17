@@ -16,8 +16,8 @@ If you already have one of the following titles:
 follow the **Installing an Entrypoint (pre-owned title)** guide, which contains twlnf scripts to install the hacked save.
 
 [Installing an Entrypoint (pre-owned title)](/guide/installing-an-entrypoint-(pre-owned)){: .btn .btn--light-outline}
-
 {: style="text-align: center;"}
+
 Otherwise, follow the **Installing Sudokuhax** guide, which will install an older version of Sudoku, as well as a corresponding hacked save.
 
 [Installing an Entrypoint (sudokuhax)](/guide/installing-sudokuhax){: .btn .btn--light-outline}
