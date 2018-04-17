@@ -18,10 +18,11 @@ The instructions on this page will include modifying your console's internal sto
 - [NUSDownloader](/assets/files/NUSDownloader.zip)
 
 ## Preparing
-1. Make a NAND backup through twlnf and copy `nand.bin` from the root of your SD card to your computer
-  - If you already made a NAND backup through twlnf, just copy the `nand.bin`
-  - Do not lose this file! It is very important!
-2. Open NUSDownloader on your omputer
+1. If you have not made a NAND backup, launch twlnf and press **A** to create one if prompted
+  - This may take a few minutes
+  - Store this NAND backup in a safe location, it is a critical backup
+2. Open NUSDownloader on your computer
+  - This can be done through [Mono](http://www.mono-project.com/) on Mac/Linux/*nix systems
 3. Check the "Create Decrypted Contents (*.app)" box
 4. Select **Database > System (DSi) > System Menu (Launcher) > [Your Region] > v512 > Start NUS Download!**
 5. When done, select **Database > System (DSi) > Nintendo DS Cart Whitelist > All > v256 > Start NUS Download!**
@@ -30,7 +31,9 @@ The instructions on this page will include modifying your console's internal sto
 8. Exit NUS Downloader
 9. Run `sort.py` to prepare the titles for installation
 10. You now have a new folder called `title` in your NUS Downloader directory
-11. Copy the `title` folder to the root of your SD card.
+11. Insert your device's SD card into your computer
+  - Copy the NAND backup to a safe location if you made one
+11. Copy the `title` folder to the root of your SD card
 12. Copy the twlnf installation script for your region to the root of your SD card
 13. Eject your SD card and insert it into your console
 
@@ -46,4 +49,4 @@ The instructions on this page will include modifying your console's internal sto
 8. Press **A** to confirm
 9. Your console will power off
 
-Your console should now be on 1.4. Check in System Settings for your version, it should be 1.4 now.
+Your console should now be on 1.4. This can be verified by launching System Settings. The console version is displayed at the bottom right of the top screen.

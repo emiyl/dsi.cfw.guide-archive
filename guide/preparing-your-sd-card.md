@@ -33,7 +33,7 @@ As of now, ugopwn only supports USA consoles, however a EUR/AUS and JPN release 
 10. Navigate to /Private/DS/Title/
 11. Copy the `.bin` file to your DSi SRL Extractor folder
 12. Run the console_id `.py` file inside the folder
-  - On Unix-based systems, such as Mac and Linux, [WINE](https://www.winehq.org/){:target="_blank"} is required for this script to run
+  - This script requires [WINE](https://www.winehq.org/){:target="_blank"} on Mac/Linux/*nix systems
 13. When prompted, press Enter
 14. Copy the new console_id `.txt` file to the root of your SD card
 15. Eject your SD card and insert it back into your DSi
