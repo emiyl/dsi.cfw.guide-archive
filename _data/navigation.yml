@@ -21,6 +21,8 @@ side:
         url: /more/downgrading/
       - title: "Dumping DSiWare from 3DS"
         url: /more/dumping-dsiware-from-3ds/
+      - title: "Using SRLoader"
+        url: /more/using-srloader/
 
   - title: Help
     children:
