@@ -63,3 +63,5 @@ Make sure you have at least 30 blocks of space on your console's internal storag
 5. When prompted, touch the screen to load the entrypoint
 
 Sudokuhax will load whatever homebrew you have on your SD card as `boot.nds`. Currently, this is twlnf. It is recommended that you install SRLoader, as it can launch both commercial ROMs and homebrew, and has several emulators built in.
+
+- [Using SRLoader](/more/using-srloader){: .btn .btn--light-outline}

@@ -69,3 +69,5 @@ We will now use pre-made scripts to simplify the installation of homebrew entryp
 Your entrypoint will load whatever homebrew you have on your SD card as `boot.nds`. Currently, this is twlnf. It is recommended that you install SRLoader, as it can launch both commercial ROMs and homebrew, and has several emulators built in.
 
 4swordshax will not work with SRLoader to launch commercial ROMs, however it can still use emulators and homebrew.
+
+- [Using SRLoader](/more/using-srloader){: .btn .btn--light-outline}
