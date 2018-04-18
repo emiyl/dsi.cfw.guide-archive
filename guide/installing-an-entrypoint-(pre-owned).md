@@ -7,6 +7,8 @@ sidebar:
 
 We will now use pre-made scripts to simplify the installation of homebrew entrypoints. These entrypoints will allow us to load homebrew within seconds of launching the target application.
 
+Using 4swordshax will only allow you to run emulators and homebrew applications. If you would like to run commercial roms using SRLoader, we recommend installing [sudokuhax](/guide/installing-sudokuhax) instead of 4swordshax.
+
 ## What you need
 
 * The [twlnf entrypoint installation pack](/assets/files/twlnf-entrypoint-pack.zip)
@@ -68,6 +70,5 @@ We will now use pre-made scripts to simplify the installation of homebrew entryp
 
 Your entrypoint will load whatever homebrew you have on your SD card as `boot.nds`. Currently, this is twlnf. It is recommended that you install SRLoader, as it can launch both commercial ROMs and homebrew, and has several emulators built in.
 
-4swordshax will not work with SRLoader to launch commercial ROMs, however it can still use emulators and homebrew.
-
-- [Using SRLoader](/more/using-srloader){: .btn .btn--light-outline}
+[Using SRLoader](/more/using-srloader){: .btn .btn--light-outline}
+{: style="text-align: center;"}
