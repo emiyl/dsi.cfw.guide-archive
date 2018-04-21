@@ -5,9 +5,13 @@ sidebar:
   nav: "side"
 ---
 
+This guide only supports USA consoles for now.
+{: .notice--info}
+
 We now have the option of installing multiple various entrypoints, allowing us to avoid running ugopwn every time we want to launch homebrew. This guide uses ugopwn, which is only supported on USA consoles for now, to install your entrypoint. A release of ugopwn for EUR and JPN consoles has been promised soon.
 
 If you already have one of the following titles:
+
 * Fieldrunners
 * Legends of Exidia
 * Guitar Rock Tour

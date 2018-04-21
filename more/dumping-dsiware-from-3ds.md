@@ -5,7 +5,10 @@ sidebar:
   nav: "side"
 ---
 
-This guide will allow you to dump DSiWare for use on your DSi console. You will need a hacked 3DS running a modern CFW such as Luma3DS. You will also need the [FBI](https://github.com/Steveice10/FBI){:target="_blank"} homebrew application installed on your 3DS, and the GodMode9 payload in your payloads folder. Follow [3ds.hacks.guide](3ds.hacks.guide){:target="_blank"} to hack your 3DS.
+This guide requires a hacked 3DS with [Luma3DS](https://github.com/AuroraWright/Luma3DS){:target="_blank"} and [FBI](https://github.com/Steveice10/FBI){:target="_blank"} installed.
+{: .notice--info}
+
+This guide will allow you to dump DSiWare for use on your DSi console. You will need a hacked 3DS running Luma3DS. Follow [3ds.hacks.guide](3ds.hacks.guide){:target="_blank"} to hack your 3DS.
 
 ## Finding DSiWare TitleID
 1. Launch the FBI application on your 3DS
@@ -26,6 +29,6 @@ This guide will allow you to dump DSiWare for use on your DSi console. You will 
 7. Press **A** when the folder is done copying to the SD Card.
 8. Power off your 3DS.
 
-Your dump should now be located on your 3DS's SD card in the folder "gm9/out".
+Your dump should now be located on your 3DS's SD card in the folder `gm9/out`.
 
 This guide is not finished yet. The next section will walk you through installing DSiWare to your DSi. Please check later for these instructions.

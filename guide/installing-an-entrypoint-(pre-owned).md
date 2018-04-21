@@ -5,6 +5,9 @@ sidebar:
   nav: "side"
 ---
 
+This guide only supports USA consoles for now.
+{: .notice--info}
+
 We will now use pre-made scripts to simplify the installation of homebrew entrypoints. These entrypoints will allow us to load homebrew within seconds of launching the target application.
 
 Using 4swordshax will only allow you to run emulators and homebrew applications. If you would like to run commercial roms using SRLoader, we recommend installing [sudokuhax](/guide/installing-sudokuhax) instead of 4swordshax.

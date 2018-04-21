@@ -5,18 +5,18 @@ sidebar:
   nav: "side"
 ---
 
-SRLoader is a homebrew application that will allow you to run homebrew applications, as well as commercial ROMs using [nds-bootstrap](https://github.com/ahezard/nds-bootstrap). SRLoader also has various emulators built in, as well as a GBA runner, which will let you run Gameboy Color, NES and GBA ROMs.
+nds-bootstrap is currently a proof-of-concept, and is far from complete. Expect long loading times and compatibility issues. It is highly recommended that you check and bookmark the [compatibility chart](https://docs.google.com/spreadsheets/d/1M7MxYQzVhb4604esdvo57a7crSvbGzFIdotLW0bm0Co/edit#gid=0){:target="_blank"}.
+{: .notice--info}
 
-You can learn more about SRLoader [here](https://gbatemp.net/threads/srloader-gui-for-flashcards-also-a-nds-app-for-dsi.472200/).
+SRLoader is a homebrew application that will allow you to run homebrew applications, as well as commercial ROMs using [nds-bootstrap](https://github.com/ahezard/nds-bootstrap){:target="_blank"}. SRLoader also has various emulators built in, as well as a GBA runner, which will let you run Gameboy Color, NES and GBA ROMs.
 
-nds-bootstrap is currently a proof-of-concept, and is far from complete. Expect long loading times and compatibility issues. It is highly recommended that you check and bookmark the [compatibility chart](https://docs.google.com/spreadsheets/d/1M7MxYQzVhb4604esdvo57a7crSvbGzFIdotLW0bm0Co/edit#gid=0).
-{: .notice style="background-color: #87625a; font-weight: bold;"}
+You can learn more about SRLoader [here](https://gbatemp.net/threads/srloader-gui-for-flashcards-also-a-nds-app-for-dsi.472200/){:target="_blank"}.
 
 ## Downloads
 
 - The latest release of [SRLoader](https://github.com/Robz8/SRLoader/releases)
 
-## Preparation
+## Installation
 1. Insert your system's SD card into your computer
 2. Copy the contents of the twlnf `.7z` file to the root of your SD card
   - If prompted to replace boot.nds, say yes

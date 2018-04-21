@@ -3,7 +3,7 @@ main:
   - title: "Credits"
     url: /credits
   - title: "Donate"
-    url: /donations
+    url: /donate
   - title: "Home"
     url: https://cfw.guide/
 
