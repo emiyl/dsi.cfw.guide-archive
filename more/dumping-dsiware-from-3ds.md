@@ -22,10 +22,10 @@ This guide will allow you to dump DSiWare for use on your DSi console. You will 
 ## Dumping DSiWare
 1. Power on the 3DS while holding **Start** to launch the Luma3DS chainloader menu
 2. Navigate to GodMode9 and press **A** to launch it
-3. Navigate to **[2:] SYSNAND TWLN > title > 00030004**
+3. Navigate to `[2:] SYSNAND TWLN/title/00030004`
 4. The folder containing the game you want to dump is the last 8 numbers of the game's Title ID
 5. Press **R+A** on this folder
-6. Select "Copy to 0:/gm9/out"
+6. Select "Copy to `0:/gm9/out`"
 7. Press **A** when the folder is done copying to the SD Card.
 8. Power off your 3DS.
 
