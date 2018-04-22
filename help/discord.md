@@ -1,6 +1,6 @@
 ---
 title: Discord
-layout: single
+layout: help
 sidebar:
   nav: "side"
 ---
