@@ -9,7 +9,7 @@ header:
   cta_url: /guide/preparing-your-sd-card/
 ---
 
-Do not use any bootcode exploit unless specified otherwise in this guide. Using bootcode its as of now have a serious chance of rendering your system permanently unusable!
+Do not use any bootcode exploit unless specified otherwise in this guide. Using bootcode exploits as of now have a serious chance of rendering your system **permanently unusable**!
 {: .notice--danger}
 
 ## What is homebrew?
