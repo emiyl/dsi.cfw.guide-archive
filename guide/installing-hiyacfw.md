@@ -29,4 +29,4 @@ This guide is not finished or ready to be published yet.
 - Copy your NAND backup to your computer
 
 Instructions not completed or elaborated yet.
-{: .notice--warning}
+{: .notice--danger}
