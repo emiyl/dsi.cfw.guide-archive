@@ -33,12 +33,13 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 5. Click on the Flipnote frog icon in the bottom left
 6. Click on the film roll icon
 7. Select **Copy > Back > Exit**
-8. Click on the Flipnote frog icon in the bottom left
-8. Click on the film roll icon.
-9. Click on the single right arrow (the next to last arrow icon) two times
+8. Click the second note.
+9. Click on the Flipnote frog icon in the bottom left
+10. Click on the film roll icon.
+11. Click on the single right arrow (the next to last arrow icon) two times
   - You will see a new frame be created
-10. Click on the paste button exactly 122 times.
-11. Select "Erase" and then "Paste"
+12. Click on the paste button exactly 122 times.
+13. Select "Erase" and then "Paste"
   - This should launch twlnf
 
 ## Installing Sudokuhax
