@@ -6,8 +6,6 @@ sidebar:
 ---
 
 ## What you need
-- An IPS patching application
-  - We recommend [Floating IPS](http://www.romhacking.net/utilities/1040/){:target="_blank"}
 - The latest release of [Python 3](https://www.python.org/downloads/){:target="_blank"}
   - You should already have this from previous sections
 - An SD card that is 2GB or smaller, or a larger SD card that is partitioned to be 2GB or smaller
