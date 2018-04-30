@@ -35,9 +35,9 @@ Make sure you have a NAND backup before proceeding!
   - Unlaunch's installer should appear
 8. Navigate to `INSTALL NOW` and press **A**
   - If Unlaunch freezes at `LOADING FAT`, there is currently **no safe way** to install Unlaunch on your system
-    - We are currently investigating this issue on the Discord; if you have this problem, stating if you've used twlnf in the past will help greatly
   - Running a system update can supposedly fix the problem, but we have not confirmed this
   - Updating your system will not erase any homebrew entrypoints
+  - We are currently investigating this issue on the Discord; if you have this problem, stating if you've used twlnf in the past will help greatly
 9. When done, navigate to `POWER DOWN` and press **A**
   - Your system will power off
 10. Turn your system on, to verify Unlaunch installed properly
