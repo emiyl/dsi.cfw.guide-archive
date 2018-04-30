@@ -12,8 +12,6 @@ side:
     children:
       - title: "Preparing your SD card"
         url: /guide/preparing-your-sd-card/
-      - title: "Installing an Entrypoint"
-        url: /guide/installing-an-entrypoint/
       - title: "Installing Unlaunch"
         url: /guide/installing-unlaunch/
       - title: "Installing HiyaCFW"
@@ -23,6 +21,8 @@ side:
 
   - title: More
     children:
+      - title: "Installing an Entrypoint"
+        url: /more/installing-an-entrypoint
       - title: "Downgrading"
         url: /more/downgrading/
       - title: "Dumping DSiWare from 3DS"

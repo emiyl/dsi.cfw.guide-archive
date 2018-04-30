@@ -201,14 +201,6 @@
             
             
 
-            <li><a href="https://dsi.cfw.guide/guide/installing-an-entrypoint/" class="">Installing an Entrypoint</a></li>
-          
-            
-            
-
-            
-            
-
             <li><a href="https://dsi.cfw.guide/guide/installing-unlaunch/" class="active">Installing Unlaunch</a></li>
           
             
@@ -238,6 +230,14 @@
 
         
         <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://dsi.cfw.guide/more/installing-an-entrypoint" class="">Installing an Entrypoint</a></li>
           
             
             
@@ -319,27 +319,65 @@
 
 <p class="notice--info">Do note that visiting the aforementioned applications is perfectly safe in HiyaCFW, once installed.</p>
 
-<p class="notice--danger">Make sure you have a NAND backup before proceeding!</p>
-
 <h2 id="what-you-need">What you need</h2>
 <ul>
   <li>The latest release of <a href="http://problemkaputt.de/unlaunch.zip">Unlaunch</a></li>
   <li>The latest release of <a href="https://github.com/devkitPro/nds-hb-menu/releases/">HBMenu</a></li>
 </ul>
 
-<h2 id="instructions">Instructions</h2>
+<h2 id="creating-a-nand-backup">Creating a NAND backup</h2>
+<ol>
+  <li>Open the Flipnote Studio application
+    <ul>
+      <li>Ensure that the <em>booting to Calendar mode</em> is disabled in Flipnote Studio’s settings</li>
+    </ul>
+  </li>
+  <li>Select <strong>View Flipnote &gt; SD Card &gt; Select Folder &gt; User &gt; ugopwn</strong></li>
+  <li>Click on the note with the red bottom half</li>
+  <li>Select “Edit”</li>
+  <li>Click on the Flipnote frog icon in the bottom left</li>
+  <li>Click on the film roll icon</li>
+  <li>Select <strong>Copy &gt; Back &gt; Exit</strong></li>
+  <li>Click the second note.</li>
+  <li>Click on the Flipnote frog icon in the bottom left</li>
+  <li>Click on the film roll icon.</li>
+  <li>Click on the single right arrow (the next to last arrow icon) two times
+    <ul>
+      <li>You will see a new frame be created</li>
+    </ul>
+  </li>
+  <li>Click on the paste button exactly 122 times.</li>
+  <li>Select “Erase” and then “Paste”
+    <ul>
+      <li>This should launch twlnf</li>
+    </ul>
+  </li>
+  <li>When prompted, press <strong>A</strong> to create a nand backup
+    <ul>
+      <li>This will take a few minutes</li>
+      <li>Store this NAND backup in a safe location, it is a critical backup and we will need it later to install HiyaCFW</li>
+    </ul>
+  </li>
+  <li>Press <strong>B</strong> to quit twlnf
+    <ul>
+      <li>Your console will power off</li>
+    </ul>
+  </li>
+</ol>
+
+<h2 id="installation">Installation</h2>
 
 <ol>
   <li>Insert your system’s SD card into your computer</li>
   <li>Copy <code class="highlighter-rouge">BOOT.NDS</code> from the <code class="highlighter-rouge">hbmenu</code> folder in the HBMenu <code class="highlighter-rouge">.tar.bz2</code> file to the root of your SD card
     <ul>
-      <li>Likely, twlnf is currently your <code class="highlighter-rouge">boot.nds</code>; for now, rename it to <code class="highlighter-rouge">boot.bak</code> or <code class="highlighter-rouge">twlnf.nds</code></li>
+      <li>twlnf is currently your <code class="highlighter-rouge">boot.nds</code>; for now, rename it to <code class="highlighter-rouge">boot.bak</code> or <code class="highlighter-rouge">twlnf.nds</code></li>
     </ul>
   </li>
   <li>Copy <code class="highlighter-rouge">UNLAUNCH.DSI</code> from the Unlaunch <code class="highlighter-rouge">.zip</code> file to the root of your SD card</li>
   <li>Rename <code class="highlighter-rouge">UNLAUNCH.DSI</code> to <code class="highlighter-rouge">unlaunch.nds</code></li>
   <li>Unplug your SD card, and insert it in your DSi</li>
-  <li>Power on your DSi, and run your previously-installed entrypoint
+  <li>Power on your DSi, and repeat steps 1 through 13 in <strong>Creating a NAND backup</strong>
     <ul>
       <li>HBMenu should appear</li>
     </ul>

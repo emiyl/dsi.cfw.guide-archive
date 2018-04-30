@@ -72,6 +72,3 @@ Using 4swordshax will only allow you to run emulators and homebrew applications.
   -  The Legend of Zelda: Four Swords Anniversary - Just launch the game, 4swordshax requires no user intervention
 
 Your entrypoint will now load whatever homebrew you have on your SD card as `boot.nds`.
-
-[Installing Unlaunch](/guide/installing-unlaunch){: .btn .btn--light-outline}
-{: style="text-align: center;"}

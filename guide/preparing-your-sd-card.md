@@ -42,5 +42,5 @@ As of now, ugopwn only supports USA consoles, however a EUR/AUS and JPN release 
 15. Eject your SD card and insert it back into your DSi
 
 
-[Installing an Entrypoint](/guide/installing-an-entrypoint){: .btn .btn--light-outline}
+[Installing Unlaunch](/guide/installing-unlaunch){: .btn .btn--light-outline}
 {: style="text-align: center;"}

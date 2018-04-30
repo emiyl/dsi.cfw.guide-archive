@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Installing an Entrypoint (pre-owned title) - DSi Guide</title>
+<!-- begin _includes/seo.html --><title>Installing an Entrypoint - DSi Guide</title>
 <meta name="description" content="A complete Nintendo DSi homebrew guide.">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_UK">
 <meta property="og:site_name" content="DSi Guide">
-<meta property="og:title" content="Installing an Entrypoint (pre-owned title)">
-<meta property="og:url" content="https://dsi.cfw.guide/guide/installing-an-entrypoint-(pre-owned)/">
+<meta property="og:title" content="Installing an Entrypoint">
+<meta property="og:url" content="https://dsi.cfw.guide/more/installing-an-entrypoint/">
 
 
 
@@ -36,7 +36,7 @@
   
 
 
-<link rel="canonical" href="https://dsi.cfw.guide/guide/installing-an-entrypoint-(pre-owned)/">
+<link rel="canonical" href="https://dsi.cfw.guide/more/installing-an-entrypoint/">
 
 
 
@@ -201,14 +201,6 @@
             
             
 
-            <li><a href="https://dsi.cfw.guide/guide/installing-an-entrypoint/" class="">Installing an Entrypoint</a></li>
-          
-            
-            
-
-            
-            
-
             <li><a href="https://dsi.cfw.guide/guide/installing-unlaunch/" class="">Installing Unlaunch</a></li>
           
             
@@ -238,6 +230,14 @@
 
         
         <ul>
+          
+            
+            
+
+            
+            
+
+            <li><a href="https://dsi.cfw.guide/more/installing-an-entrypoint" class="">Installing an Entrypoint</a></li>
           
             
             
@@ -295,7 +295,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Installing an Entrypoint (pre-owned title)">
+    <meta itemprop="headline" content="Installing an Entrypoint">
     
     
     
@@ -303,7 +303,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Installing an Entrypoint (pre-owned title)
+          <h1 class="page__title" itemprop="headline">Installing an Entrypoint
 </h1>
           
         </header>
@@ -315,110 +315,26 @@
     <p class="notice">If you have any issues or problems, ask on our <a href="/help/discord/">Discord Servers</a>.</p>
         <p class="notice--info">This guide only supports USA consoles for now.</p>
 
-<p>We will now use pre-made scripts to simplify the installation of homebrew entrypoints. These entrypoints will allow us to load homebrew within seconds of launching the target application.</p>
+<p>We now have the option of installing multiple various entrypoints, allowing us to avoid running ugopwn every time we want to launch homebrew. This guide uses ugopwn, which is only supported on USA consoles for now, to install your entrypoint. A release of ugopwn for EUR and JPN consoles has been promised soon.</p>
 
-<p>Using 4swordshax will only allow you to run emulators and homebrew applications. If you would like to run commercial roms using SRLoader, we recommend installing <a href="/guide/installing-sudokuhax">sudokuhax</a> instead of 4swordshax.</p>
+<p>This is only necessary if you do not wish to install HiyaCFW, but want a homebrew entrypoint on your system.</p>
 
-<h2 id="what-you-need">What you need</h2>
-
-<ul>
-  <li>The <a href="/assets/files/twlnf-entrypoint-pack.zip">twlnf entrypoint installation pack</a></li>
-</ul>
-
-<h2 id="preparation">Preparation</h2>
-
-<ol>
-  <li>Insert your device’s SD card into your computer</li>
-  <li>Copy the contents of the twlnf entrypoint installation <code class="highlighter-rouge">.zip</code> to the root of your SD card</li>
-  <li>Unplug your SD card, and insert it in your DSi</li>
-</ol>
-
-<h2 id="launching-twlnf">Launching twlnf</h2>
-
-<ol>
-  <li>Open the Flipnote Studio application
-    <ul>
-      <li>Ensure that the <em>booting to Calendar mode</em> is disabled in Flipnote Studio’s settings</li>
-    </ul>
-  </li>
-  <li>Select <strong>View Flipnote &gt; SD Card &gt; Select Folder &gt; User &gt; ugopwn</strong></li>
-  <li>Click on the note with the red bottom half</li>
-  <li>Select “Edit”</li>
-  <li>Click on the Flipnote frog icon in the bottom left</li>
-  <li>Click on the film roll icon</li>
-  <li>Select <strong>Copy &gt; Back &gt; Exit</strong></li>
-  <li>Click on the Flipnote frog icon in the bottom left</li>
-  <li>Click on the film roll icon.</li>
-  <li>Click on the single right arrow (the next to last arrow icon) two times
-    <ul>
-      <li>You will see a new frame be created</li>
-    </ul>
-  </li>
-  <li>Click on the paste button exactly 122 times.</li>
-  <li>Select “Erase” and then “Paste”
-    <ul>
-      <li>This should launch twlnf</li>
-    </ul>
-  </li>
-</ol>
-
-<h2 id="installing-your-entrypoint">Installing your Entrypoint</h2>
-
-<ol>
-  <li>If prompted in twlnf, press <strong>A</strong> to create a NAND backup
-    <ul>
-      <li>This may take a few minutes</li>
-      <li>Store this NAND backup in a safe location, it is a critical backup</li>
-    </ul>
-  </li>
-  <li>Press <strong>X</strong> to mount the NAND directly</li>
-</ol>
+<p>If you already have one of the following titles:</p>
 
 <ul>
-  <li>twlnf does not list this as an option</li>
+  <li>Fieldrunners</li>
+  <li>Legends of Exidia</li>
+  <li>Guitar Rock Tour</li>
+  <li>The Legend of Zelda: Four Swords Anniversary</li>
 </ul>
 
-<ol>
-  <li>Navigate to the .nfs script corresponding with the DSiWare you have
-    <ul>
-      <li>Fieldrunners - <code class="highlighter-rouge">install_fieldrunhax_usa.nfs</code></li>
-      <li>Legends of Exidia - <code class="highlighter-rouge">install_exidiahax_usa.nfs</code></li>
-      <li>Guitar Rock Tour - <code class="highlighter-rouge">install_grtpwn_usa.nfs</code></li>
-      <li>The Legend of Zelda: Four Swords Anniversary - <code class="highlighter-rouge">install_4swordshax_usa.nfs</code></li>
-    </ul>
-  </li>
-  <li>Press <strong>A</strong> to execute the script
-    <ul>
-      <li>If the dry run fails, you do not have the DSiWare installed</li>
-    </ul>
-  </li>
-  <li>Press <strong>A</strong> to install the application to NAND</li>
-  <li>Once finished, press <strong>Select</strong> to quit twlnf</li>
-  <li>Press <strong>A</strong> to confirm
-    <ul>
-      <li>Your console will power off</li>
-    </ul>
-  </li>
-</ol>
+<p>follow the <strong>Installing an Entrypoint (pre-owned title)</strong> guide, which contains twlnf scripts to install the hacked save.</p>
 
-<h2 id="launching-your-entrypoint">Launching your Entrypoint</h2>
+<p style="text-align: center;"><a href="/more/installing-an-entrypoint-(pre-owned)" class="btn btn--light-outline">Installing an Entrypoint (pre-owned title)</a></p>
 
-<ol>
-  <li>Power on your console</li>
-  <li>Open your exploited application</li>
-  <li>Perform the following:
-    <ul>
-      <li>Fieldrunners - Wait for the game to load, and press <strong>Scores</strong> on the main menu</li>
-      <li>Legends of Exidia - Navigate past the two start screens, select the first save file, and press <strong>Continue</strong></li>
-      <li>Guitar Rock Tour - Scroll down, and press <strong>High Scores</strong> &gt; <strong>Drums</strong> &gt; <strong>Easy</strong></li>
-      <li>The Legend of Zelda: Four Swords Anniversary - Just launch the game, 4swordshax requires no user intervention</li>
-    </ul>
-  </li>
-</ol>
+<p>Otherwise, follow the <strong>Installing Sudokuhax</strong> guide, which will install an older version of Sudoku, as well as a corresponding hacked save.</p>
 
-<p>Your entrypoint will now load whatever homebrew you have on your SD card as <code class="highlighter-rouge">boot.nds</code>.</p>
-
-<p style="text-align: center;"><a href="/guide/installing-unlaunch" class="btn btn--light-outline">Installing Unlaunch</a></p>
+<p style="text-align: center;"><a href="/more/installing-sudokuhax" class="btn btn--light-outline">Installing an Entrypoint (sudokuhax)</a></p>
 
         
       </section>

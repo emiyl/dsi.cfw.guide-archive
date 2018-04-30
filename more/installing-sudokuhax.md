@@ -64,7 +64,3 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 5. When prompted, touch the screen to load the entrypoint
 
 Sudokuhax will now load whatever homebrew you have on your SD card as `boot.nds`.
-
-[Installing Unlaunch](/guide/installing-unlaunch){: .btn .btn--light-outline}
-{: style="text-align: center;"}
-

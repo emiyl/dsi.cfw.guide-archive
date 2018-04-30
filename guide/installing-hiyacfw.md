@@ -33,7 +33,8 @@ sidebar:
 
 ## Instructions
 1. Insert your <2GB SD card into your system
-2. Launch your homebrew entrypoint to start twlnf
+2. Power on your DSi, and repeat steps 1 through 13 in **Creating a NAND backup**
+  - twlnf should appear
 3. Press **X** to mount the system NAND directly
 4. Press **START** to open twlnf's menu
 5. Press **R** to dump the NAND contents to your SD card
