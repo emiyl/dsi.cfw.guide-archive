@@ -1,12 +1,9 @@
 ---
-title: Installing HiyaCFW
+title: Installing HiyaCFW (No ugopwn)
 layout: single
 sidebar:
-  nav: "side"
+  nav: "no-ugopwn"
 ---
-
-This guide only supports USA consoles for now.
-{: .notice--info}
 
 You will need [Unlaunch](/guide/installing-unlaunch/) installed before proceeding.
 {: .notice--info}
@@ -48,22 +45,8 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 ## Instructions
 1. Insert your <2GB SD card into your system
 2. Power on your DSi
-3. Open the Flipnote Studio application
-  - Ensure that the *booting to Calendar mode* is disabled in Flipnote Studio's settings
-4. Select **View Flipnote > SD Card > Select Folder > User > ugopwn**
-5. Click on the note with the red bottom half
-6. Select "Edit"
-7. Click on the Flipnote frog icon in the bottom left
-8. Click on the film roll icon
-9. Select **Copy > Back > Exit**
-10. Click the second note.
-11. Click on the Flipnote frog icon in the bottom left
-12. Click on the film roll icon.
-13. Click on the single right arrow (the next to last arrow icon) two times
-  - You will see a new frame be created
-14. Click on the paste button exactly 122 times.
-15. Select "Erase" and then "Paste"
-  - This should launch twlnf
+3. Launch your homebrew entrypoint
+  - This should open twlnf
 16. Press **X** to mount the system NAND directly
 17. Press **START** to open twlnf's menu
 18. Press **R** to dump the NAND contents to your SD card

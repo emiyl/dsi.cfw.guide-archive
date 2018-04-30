@@ -2,11 +2,11 @@
 layout: splash
 permalink: /
 title: DSi Guide
-excerpt: "A complete Nintendo DSi homebrew guide."
+excerpt: "A complete Nintendo DSi homebrew guide, from stock to HiyaCFW."
 header:
   overlay_color: "#1a1d24"
   cta_label: "Get Started"
-  cta_url: /guide/preparing-your-sd-card/
+  cta_url: /guide/get-started/
 ---
 
 ## What is homebrew?

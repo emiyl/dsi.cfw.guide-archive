@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Installing HiyaCFW - DSi Guide</title>
-<meta name="description" content="A complete Nintendo DSi homebrew guide.">
+<meta name="description" content="A complete Nintendo DSi homebrew guide, from stock to HiyaCFW.">
 
 
 
@@ -193,7 +193,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/preparing-your-sd-card/" class="">Preparing your SD card</a></li>
+            <li><a href="http://localhost:4000/guide/get-started/" class="">Get Started</a></li>
           
             
             
@@ -305,9 +305,18 @@
         
 		<p class="notice">If you like the guide, please consider donating via <a href="/donate">PayPal</a>.</p>
     <p class="notice">If you have any issues or problems, ask on our <a href="/help/discord/">Discord Servers</a>.</p>
-        <p class="notice--info">You will need <a href="/guide/installing-unlaunch/">Unlaunch</a> installed before proceeding.</p>
+        <p class="notice--info">This guide only supports USA consoles for now.</p>
+
+<p class="notice--info">You will need <a href="/guide/installing-unlaunch/">Unlaunch</a> installed before proceeding.</p>
 
 <p class="notice--danger">Do not system update after installing HiyaCFW. This will remove HiyaCFW’s SD patches.</p>
+
+<p>HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will allow:</p>
+<ul>
+  <li>Booting the system from SD card</li>
+  <li>Installing homebrew applications to the Home Menu</li>
+  <li>Launching blocked flashcards on later versions</li>
+</ul>
 
 <h2 id="what-you-need">What you need</h2>
 <ul>
@@ -351,9 +360,30 @@
 <h2 id="instructions">Instructions</h2>
 <ol>
   <li>Insert your &lt;2GB SD card into your system</li>
-  <li>Power on your DSi, and repeat steps 1 through 13 in <strong>Creating a NAND backup</strong>
+  <li>Power on your DSi</li>
+  <li>Open the Flipnote Studio application
     <ul>
-      <li>twlnf should appear</li>
+      <li>Ensure that the <em>booting to Calendar mode</em> is disabled in Flipnote Studio’s settings</li>
+    </ul>
+  </li>
+  <li>Select <strong>View Flipnote &gt; SD Card &gt; Select Folder &gt; User &gt; ugopwn</strong></li>
+  <li>Click on the note with the red bottom half</li>
+  <li>Select “Edit”</li>
+  <li>Click on the Flipnote frog icon in the bottom left</li>
+  <li>Click on the film roll icon</li>
+  <li>Select <strong>Copy &gt; Back &gt; Exit</strong></li>
+  <li>Click the second note.</li>
+  <li>Click on the Flipnote frog icon in the bottom left</li>
+  <li>Click on the film roll icon.</li>
+  <li>Click on the single right arrow (the next to last arrow icon) two times
+    <ul>
+      <li>You will see a new frame be created</li>
+    </ul>
+  </li>
+  <li>Click on the paste button exactly 122 times.</li>
+  <li>Select “Erase” and then “Paste”
+    <ul>
+      <li>This should launch twlnf</li>
     </ul>
   </li>
   <li>Press <strong>X</strong> to mount the system NAND directly</li>

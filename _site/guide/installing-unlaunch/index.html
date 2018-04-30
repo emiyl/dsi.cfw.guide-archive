@@ -10,7 +10,7 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Installing Unlaunch - DSi Guide</title>
-<meta name="description" content="A complete Nintendo DSi homebrew guide.">
+<meta name="description" content="A complete Nintendo DSi homebrew guide, from stock to HiyaCFW.">
 
 
 
@@ -193,7 +193,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/preparing-your-sd-card/" class="">Preparing your SD card</a></li>
+            <li><a href="http://localhost:4000/guide/get-started/" class="">Get Started</a></li>
           
             
             
@@ -307,19 +307,52 @@
     <p class="notice">If you have any issues or problems, ask on our <a href="/help/discord/">Discord Servers</a>.</p>
         <p class="notice--info">This guide only supports USA consoles for now.</p>
 
-<p class="notice--info">Make sure you have a NAND backup before proceeding.</p>
-
 <p class="notice--danger">Unlaunch is currently in a beta state. Please exercise <strong>extreme caution</strong>. You and you alone are responsible for any damage done to your system.</p>
 
 <p class="notice--danger">Do not visit Data Management, the DSi Shop, or the 3DS Transfer Tool after installing Unlaunch until HiyaCFW installed. This will prevent your system from booting until restoring a NAND backup at best, or <strong>brick it entirely</strong> at worst. This notice will be updated once Unlaunch is safer.</p>
 
-<h2 id="what-you-need">What you need</h2>
+<p>Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DSi Custom Firmware, to your console.</p>
+
+<h2 id="downloads">Downloads</h2>
 <ul>
   <li>The latest release of <a href="http://problemkaputt.de/unlaunch.zip">Unlaunch</a></li>
   <li>The latest release of <a href="https://github.com/devkitPro/nds-hb-menu/releases/">HBMenu</a></li>
+  <li>The latest release of <a href="/assets/files/ugopwn.zip">ugopwn</a></li>
+  <li>The latest release of <a href="https://github.com/Jimmy-Z/twlnf/releases" target="_blank">twlnf</a></li>
+  <li>The latest release of <a href="https://www.python.org/downloads/" target="_blank">Python 3</a></li>
+  <li>The latest release of <a href="/assets/files/dsi_srl_extract.zip">DSi SRL Extractor</a></li>
 </ul>
 
+<h2 id="preparing-your-sd-card">Preparing your SD card</h2>
+
+<ol>
+  <li>Install Python 3 on your computer</li>
+  <li>Open the System Settings application</li>
+  <li>Select <strong>Data Management &gt; System Memory &gt; Flipnote Studio &gt; Copy &gt; Yes</strong>
+    <ul>
+      <li>If Data Management isn’t appearing, open the DSi Shop, close it, and then try again</li>
+    </ul>
+  </li>
+  <li>Once finished, power off your device</li>
+  <li>Take your SD card out of your console and insert it into your computer</li>
+  <li>Copy the contents of the ugopwn <code class="highlighter-rouge">.zip</code> file to the root of your SD card</li>
+  <li>Copy the contents of the twlnf <code class="highlighter-rouge">.7z</code> file to the root of your SD card, and rename <code class="highlighter-rouge">twlnf.nds</code> to <code class="highlighter-rouge">boot.nds</code></li>
+  <li>Copy the contents of the DSi SRL Extractor <code class="highlighter-rouge">.zip</code> file to a folder on your Desktop</li>
+  <li>Open the SD card drive on your computer</li>
+  <li>Navigate to /Private/DS/Title/</li>
+  <li>Copy the <code class="highlighter-rouge">.bin</code> file to your DSi SRL Extractor folder</li>
+  <li>Run the console_id <code class="highlighter-rouge">.py</code> file inside the folder
+    <ul>
+      <li>This script requires <a href="https://www.winehq.org/" target="_blank">WINE</a> on Mac/Linux/*nix systems</li>
+    </ul>
+  </li>
+  <li>When prompted, press Enter</li>
+  <li>Copy the new console_id <code class="highlighter-rouge">.txt</code> file to the root of your SD card</li>
+  <li>Eject your SD card and insert it back into your DSi</li>
+</ol>
+
 <h2 id="creating-a-nand-backup">Creating a NAND backup</h2>
+
 <ol>
   <li>Open the Flipnote Studio application
     <ul>
