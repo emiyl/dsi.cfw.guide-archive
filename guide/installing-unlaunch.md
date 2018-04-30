@@ -11,13 +11,8 @@ Make sure you have a NAND backup before proceeding.
 Unlaunch is currently in a beta state. Please exercise **extreme caution**. You and you alone are responsible for any damage done to your system.
 {: .notice--danger}
 
-<<<<<<< HEAD
-Do note that visiting the aforementioned applications is perfectly safe in HiyaCFW, once installed.
-{: .notice--info}
-=======
 Do not visit Data Management, the DSi Shop, or the 3DS Transfer Tool after installing Unlaunch until HiyaCFW installed. This will prevent your system from booting until restoring a NAND backup at best, or **brick it entirely** at worst. This notice will be updated once Unlaunch is safer.
 {: .notice--danger}
->>>>>>> c55c8b93ab3a7d03f72f7540c04c8995b08e0c41
 
 ## What you need
 - The latest release of [Unlaunch](http://problemkaputt.de/unlaunch.zip)
