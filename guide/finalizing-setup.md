@@ -32,4 +32,4 @@ SRLoader is a homebrew application that can run homebrew and retail ROMs, and ha
 14. "Unwrap" the new gift box by tapping on it
     - SRLoader should appear
 
-SRLoader should now be on your System Menu, as any other DSiWare would be. SRLoader can run homebrew and retail ROMs, and has several emulators built in.
+SRLoader should now be on your System Menu, as any other DSiWare would be. With SRLoader, you can run homebrew and retail ROMs, and use the several emulators which are built into the software.
