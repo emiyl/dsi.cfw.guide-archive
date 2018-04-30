@@ -5,6 +5,9 @@ sidebar:
   nav: "side"
 ---
 
+Do not system update after installing HiyaCFW. This will remove HiyaCFW's SD patches.
+{: .notice--danger}
+
 ## What you need
 - The latest release of [Python 3](https://www.python.org/downloads/){:target="_blank"}
   - You should already have this from previous sections
@@ -58,10 +61,7 @@ sidebar:
 17. Power on your console
   - HiyaCFW's splash screen should appear
 
-Your system now boots from the SD card instead of the internal NAND.
-
-Do not system update from HiyaCFW! This may remove HiyaCFW's SD patches.
-{: .notice--danger}
+Your system should now boot from the SD card instead of the internal NAND.
 
 [Finalizing Setup](/guide/finalizing-setup){: .btn .btn--light-outline}
 {: style="text-align: center;"}

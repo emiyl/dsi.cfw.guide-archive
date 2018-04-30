@@ -7,6 +7,8 @@ sidebar:
 
 We will now install SRLoader to the System Menu using TWLit, a program which can help us install .TIA files to the new SD NAND.
 
+SRLoader is a homebrew application that can run homebrew and retail ROMs, and has several emulators built in.
+
 ## Downloads
 
 - The latest release of [TWLit](/assets/files/TWLit.exe)
@@ -30,5 +32,4 @@ We will now install SRLoader to the System Menu using TWLit, a program which can
 14. "Unwrap" the new gift box by tapping on it
     - SRLoader should appear
 
-SRLoader is now on your System Menu, as any other DSiWare would be. SRLoader can run homebrew and retail ROMs, and has several emulators built in.
-{: .notice--info}
+SRLoader should now be on your System Menu, as any other DSiWare would be. With SRLoader, you can run homebrew and retail ROMs, and use the several emulators which are built into the software.
