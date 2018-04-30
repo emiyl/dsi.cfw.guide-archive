@@ -5,6 +5,9 @@ sidebar:
   nav: "side"
 ---
 
+This guide only supports USA consoles for now.
+{: .notice--info}
+
 Make sure you have a NAND backup before proceeding.
 {: .notice--info}
 

@@ -21,12 +21,10 @@ side:
 
   - title: More
     children:
-      - title: "Installing an Entrypoint"
-        url: /more/installing-an-entrypoint
-      - title: "Downgrading"
-        url: /more/downgrading/
       - title: "Dumping DSiWare from 3DS"
         url: /more/dumping-dsiware-from-3ds/
+      - title: "Installing an Entrypoint"
+        url: /more/installing-an-entrypoint/
       - title: "Using SRLoader"
         url: /more/using-srloader/
 

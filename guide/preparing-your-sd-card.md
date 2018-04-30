@@ -8,9 +8,7 @@ sidebar:
 This guide only supports USA consoles for now.
 {: .notice--info}
 
-ugopwn is an exploit that allows for homebrew access on all DSi firmwares. It requires you to have a copy of Flipnote Studio already installed on your console. There is currently no way to install Flipnote Studio without homebrew without hardmodding your system.
-
-Since ugopwn can be very time consuming, we will install a faster entrypoint instead, which launches the Homebrew Launcher a few seconds after you start the application.
+ugopwn is an exploit that allows for homebrew access on all DSi firmwares. It requires you to have a copy of Flipnote Studio already installed on your console. There is currently no way to install Flipnote Studio without installing homebrew or hardmodding your system.
 
 As of now, ugopwn only supports USA consoles, however a EUR/AUS and JPN release have been promised to come soon.
 

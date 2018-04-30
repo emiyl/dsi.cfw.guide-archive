@@ -5,6 +5,9 @@ sidebar:
   nav: "side"
 ---
 
+You will need [Unlaunch](/guide/installing-unlaunch/) installed before proceeding.
+{: .notice--info}
+
 Do not system update after installing HiyaCFW. This will remove HiyaCFW's SD patches.
 {: .notice--danger}
 
