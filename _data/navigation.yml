@@ -14,6 +14,12 @@ side:
         url: /guide/preparing-your-sd-card/
       - title: "Installing an Entrypoint"
         url: /guide/installing-an-entrypoint/
+      - title: "Installing Unlaunch"
+        url: /guide/installing-unlaunch/
+      - title: "Installing HiyaCFW"
+        url: /guide/installing-hiyacfw/
+      - title: "Finalizing Setup"
+        url: /guide/finalizing-setup/
 
   - title: More
     children:

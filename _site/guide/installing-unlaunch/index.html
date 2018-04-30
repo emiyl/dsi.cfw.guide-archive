@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Credits - DSi Guide</title>
+<!-- begin _includes/seo.html --><title>Installing Unlaunch - DSi Guide</title>
 <meta name="description" content="A complete Nintendo DSi homebrew guide.">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_UK">
 <meta property="og:site_name" content="DSi Guide">
-<meta property="og:title" content="Credits">
-<meta property="og:url" content="https://dsi.cfw.guide/credits/">
+<meta property="og:title" content="Installing Unlaunch">
+<meta property="og:url" content="https://dsi.cfw.guide/guide/installing-unlaunch/">
 
 
 
@@ -36,7 +36,7 @@
   
 
 
-<link rel="canonical" href="https://dsi.cfw.guide/credits/">
+<link rel="canonical" href="https://dsi.cfw.guide/guide/installing-unlaunch/">
 
 
 
@@ -209,7 +209,7 @@
             
             
 
-            <li><a href="https://dsi.cfw.guide/guide/installing-unlaunch/" class="">Installing Unlaunch</a></li>
+            <li><a href="https://dsi.cfw.guide/guide/installing-unlaunch/" class="active">Installing Unlaunch</a></li>
           
             
             
@@ -295,7 +295,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Credits">
+    <meta itemprop="headline" content="Installing Unlaunch">
     
     
     
@@ -303,7 +303,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Credits
+          <h1 class="page__title" itemprop="headline">Installing Unlaunch
 </h1>
           
         </header>
@@ -313,35 +313,67 @@
         
 		<p class="notice">If you like the guide, please consider donating via <a href="/donate">PayPal</a>.</p>
     <p class="notice">If you have any issues or problems, ask on our <a href="/help/discord/">Discord Servers</a>.</p>
-        
-<div class="notice--info"><pre style="background-color: #252b35;border-radius: 5px;">
+        <p class="notice--info">Unlaunch is currently in a beta state. Please exercise <strong>extreme caution.</strong></p>
 
+<p class="notice--danger">Do not visit Data Management, the DSi Shop, or the 3DS Transfer Tool after installing Unlaunch. This will prevent your system from booting until restoring a NAND backup at best, or <strong>brick it entirely</strong> at worst. This notice will be updated once Unlaunch is safer.</p>
 
-    + jerbear64
-    + pokecraft98
-    + emiyl
-    + Robz8
-    + Jhynjhiruu
-    + GhostLatte
-    + HamBone41801
-    + CatmanFan
-    + LukeHasAWii
-    + ThisIsDaAccount
-    + pandavova
-    + MyDePain
-    + Hectortillo
-    + TipsPROmayB
-    + Clyde_271
-    + BlastedGuy9905
-    + Flashed
-    + CloudMcFox
-    + mariogamer
-    + Fra
-    + takusan
-    + smileyhead
-    
-</pre>
-</div>
+<p class="notice--info">Do note that visiting the aforementioned applications is perfectly safe in HiyaCFW, once installed.</p>
+
+<p class="notice--danger">Make sure you have a NAND backup before proceeding!</p>
+
+<h2 id="what-you-need">What you need</h2>
+<ul>
+  <li>The latest release of <a href="http://problemkaputt.de/unlaunch.zip">Unlaunch</a></li>
+  <li>The latest release of <a href="https://github.com/devkitPro/nds-hb-menu/releases/">HBMenu</a></li>
+</ul>
+
+<h2 id="instructions">Instructions</h2>
+
+<ol>
+  <li>Insert your system’s SD card into your computer</li>
+  <li>Copy <code class="highlighter-rouge">BOOT.NDS</code> from the <code class="highlighter-rouge">hbmenu</code> folder in the HBMenu <code class="highlighter-rouge">.tar.bz2</code> file to the root of your SD card
+    <ul>
+      <li>Likely, twlnf is currently your <code class="highlighter-rouge">boot.nds</code>; for now, rename it to <code class="highlighter-rouge">boot.bak</code> or <code class="highlighter-rouge">twlnf.nds</code></li>
+    </ul>
+  </li>
+  <li>Copy <code class="highlighter-rouge">UNLAUNCH.DSI</code> from the Unlaunch <code class="highlighter-rouge">.zip</code> file to the root of your SD card</li>
+  <li>Rename <code class="highlighter-rouge">UNLAUNCH.DSI</code> to <code class="highlighter-rouge">unlaunch.nds</code></li>
+  <li>Unplug your SD card, and insert it in your DSi</li>
+  <li>Power on your DSi, and run your previously-installed entrypoint
+    <ul>
+      <li>HBMenu should appear</li>
+    </ul>
+  </li>
+  <li>Navigate to <code class="highlighter-rouge">unlaunch.nds</code>, and press <strong>A</strong>
+    <ul>
+      <li>Unlaunch’s installer should appear</li>
+    </ul>
+  </li>
+  <li>Navigate to <code class="highlighter-rouge">INSTALL NOW</code> and press <strong>A</strong>
+    <ul>
+      <li>If Unlaunch freezes at <code class="highlighter-rouge">LOADING FAT</code>, there is currently <strong>no safe way</strong> to install Unlaunch on your system</li>
+    </ul>
+    <ul>
+      <li>We are currently investigating this issue on the Discord; if you have this problem, stating if you’ve used twlnf in the past will help greatly
+      - Running a system update can supposedly fix the problem, but we have not confirmed this
+      - Updating your system will not erase any homebrew entrypoints</li>
+    </ul>
+  </li>
+  <li>When done, navigate to <code class="highlighter-rouge">POWER DOWN</code> and press <strong>A</strong>
+    <ul>
+      <li>Your system will power off</li>
+    </ul>
+  </li>
+  <li>Turn your system on, to verify Unlaunch installed properly
+    <ul>
+      <li>You should briefly see the Unlaunch screen, and boot into a version of the DSi Menu with no sound</li>
+    </ul>
+  </li>
+</ol>
+
+<p>With Unlaunch installed, your system now has primitive brick protection, unless the launcher’s TMD file is destroyed. Unlaunch has protections that should prevent this from happening, and HiyaCFW uses your SD card as the DSi’s NAND, making your system theoretically unbrickable.</p>
+
+<p style="text-align: center;"><a href="/guide/installing-hiyacfw" class="btn btn--light-outline">Installing HiyaCFW</a></p>
 
         
       </section>

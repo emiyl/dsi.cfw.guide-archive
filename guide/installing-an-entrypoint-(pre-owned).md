@@ -71,7 +71,7 @@ Using 4swordshax will only allow you to run emulators and homebrew applications.
   - Guitar Rock Tour - Scroll down, and press **High Scores** > **Drums** > **Easy**
   -  The Legend of Zelda: Four Swords Anniversary - Just launch the game, 4swordshax requires no user intervention
 
-Your entrypoint will load whatever homebrew you have on your SD card as `boot.nds`. Currently, this is twlnf. It is recommended that you install SRLoader, as it can launch both commercial ROMs and homebrew, and has several emulators built in.
+Your entrypoint will now load whatever homebrew you have on your SD card as `boot.nds`.
 
-[Using SRLoader](/more/using-srloader){: .btn .btn--light-outline}
+[Installing Unlaunch](/guide/installing-unlaunch){: .btn .btn--light-outline}
 {: style="text-align: center;"}

@@ -62,7 +62,8 @@ To use the [magnet](https://en.wikipedia.org/wiki/Magnet_URI_scheme) links on th
 4. Wait for the ESRB and EA screens to pass
 5. When prompted, touch the screen to load the entrypoint
 
-Sudokuhax will load whatever homebrew you have on your SD card as `boot.nds`. Currently, this is twlnf. It is recommended that you install SRLoader, as it can launch both commercial ROMs and homebrew, and has several emulators built in.
+Sudokuhax will now load whatever homebrew you have on your SD card as `boot.nds`.
 
-[Using SRLoader](/more/using-srloader){: .btn .btn--light-outline}
+[Installing Unlaunch](/guide/installing-unlaunch){: .btn .btn--light-outline}
 {: style="text-align: center;"}
+

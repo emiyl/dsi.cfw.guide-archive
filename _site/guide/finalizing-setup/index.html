@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Credits - DSi Guide</title>
+<!-- begin _includes/seo.html --><title>Finalizing Setup - DSi Guide</title>
 <meta name="description" content="A complete Nintendo DSi homebrew guide.">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_UK">
 <meta property="og:site_name" content="DSi Guide">
-<meta property="og:title" content="Credits">
-<meta property="og:url" content="https://dsi.cfw.guide/credits/">
+<meta property="og:title" content="Finalizing Setup">
+<meta property="og:url" content="https://dsi.cfw.guide/guide/finalizing-setup/">
 
 
 
@@ -36,7 +36,7 @@
   
 
 
-<link rel="canonical" href="https://dsi.cfw.guide/credits/">
+<link rel="canonical" href="https://dsi.cfw.guide/guide/finalizing-setup/">
 
 
 
@@ -225,7 +225,7 @@
             
             
 
-            <li><a href="https://dsi.cfw.guide/guide/finalizing-setup/" class="">Finalizing Setup</a></li>
+            <li><a href="https://dsi.cfw.guide/guide/finalizing-setup/" class="active">Finalizing Setup</a></li>
           
         </ul>
         
@@ -295,7 +295,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Credits">
+    <meta itemprop="headline" content="Finalizing Setup">
     
     
     
@@ -303,7 +303,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Credits
+          <h1 class="page__title" itemprop="headline">Finalizing Setup
 </h1>
           
         </header>
@@ -313,35 +313,43 @@
         
 		<p class="notice">If you like the guide, please consider donating via <a href="/donate">PayPal</a>.</p>
     <p class="notice">If you have any issues or problems, ask on our <a href="/help/discord/">Discord Servers</a>.</p>
-        
-<div class="notice--info"><pre style="background-color: #252b35;border-radius: 5px;">
+        <p>We will now install SRLoader to the System Menu using TWLit, a program which can help us install .TIA files to the new SD NAND.</p>
 
+<h2 id="downloads">Downloads</h2>
 
-    + jerbear64
-    + pokecraft98
-    + emiyl
-    + Robz8
-    + Jhynjhiruu
-    + GhostLatte
-    + HamBone41801
-    + CatmanFan
-    + LukeHasAWii
-    + ThisIsDaAccount
-    + pandavova
-    + MyDePain
-    + Hectortillo
-    + TipsPROmayB
-    + Clyde_271
-    + BlastedGuy9905
-    + Flashed
-    + CloudMcFox
-    + mariogamer
-    + Fra
-    + takusan
-    + smileyhead
-    
-</pre>
-</div>
+<ul>
+  <li>The latest release of <a href="/assets/files/TWLit.exe">TWLit</a></li>
+  <li>The latest release of <a href="https://github.com/Robz8/SRLoader/releases" target="_blank">SRLoader</a>
+    <h2 id="instructions">Instructions</h2>
+  </li>
+</ul>
+
+<ol>
+  <li>Copy <code class="highlighter-rouge">SRLoader.tia</code> from the SRLoader <code class="highlighter-rouge">.7z</code> file to a location on your PC</li>
+  <li>Insert your SD NAND (&lt;2GB) SD card</li>
+  <li>Copy the <code class="highlighter-rouge">_nds</code> and <code class="highlighter-rouge">roms</code> folders from the SRLoader <code class="highlighter-rouge">.7z</code> file to the root of your SD card</li>
+  <li>Open TWLit
+    <ul>
+      <li>If TWLit does not launch, install the <a href="https://www.microsoft.com/en-us/download/details.aspx?id=5555" target="_blank">Microsoft Visual C++ 2010 Redistributable Package</a></li>
+    </ul>
+  </li>
+  <li>Navigate to the <strong>TIA Installer</strong> tab</li>
+  <li>Press “Browse” on the <strong>Input TIA</strong> entry box</li>
+  <li>Navigate to the location of <code class="highlighter-rouge">SRLoader.tia</code>, select <code class="highlighter-rouge">SRLoader.tia</code>, and press <strong>Open</strong></li>
+  <li>Press “Browse” on the <strong>Install Dir</strong> entry box</li>
+  <li>Navigate to your SD card, and press <strong>Open</strong></li>
+  <li>(Optional) Input your system’s Console ID in the <strong>DSi Console ID</strong> entry box</li>
+  <li>Press “Execute”</li>
+  <li>Close TWLit, unplug your SD card, and insert it in your DSi</li>
+  <li>Power on your system</li>
+  <li>“Unwrap” the new gift box by tapping on it
+    <ul>
+      <li>SRLoader should appear</li>
+    </ul>
+  </li>
+</ol>
+
+<p class="notice--info">SRLoader is now on your System Menu, as any other DSiWare would be. SRLoader can run homebrew and retail ROMs, and has several emulators built in.</p>
 
         
       </section>
