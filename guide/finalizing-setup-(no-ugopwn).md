@@ -1,8 +1,8 @@
 ---
-title: Finalizing Setup
+title: Finalizing Setup (No ugopwn)
 layout: single
 sidebar:
-  nav: "side"
+  nav: "no-ugopwn"
 ---
 
 We will now install SRLoader to the System Menu using TWLit, a program which can help us install `.tia` files to the new SD NAND.

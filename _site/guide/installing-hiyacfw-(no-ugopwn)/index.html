@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Installing an Entrypoint - DSi Guide</title>
+<!-- begin _includes/seo.html --><title>Installing HiyaCFW (No ugopwn) - DSi Guide</title>
 <meta name="description" content="A complete Nintendo DSi homebrew guide, from stock to HiyaCFW.">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_UK">
 <meta property="og:site_name" content="DSi Guide">
-<meta property="og:title" content="Installing an Entrypoint">
-<meta property="og:url" content="http://localhost:4000/more/installing-an-entrypoint/">
+<meta property="og:title" content="Installing HiyaCFW (No ugopwn)">
+<meta property="og:url" content="http://localhost:4000/guide/installing-hiyacfw-(no-ugopwn)/">
 
 
 
@@ -36,7 +36,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/more/installing-an-entrypoint/">
+<link rel="canonical" href="http://localhost:4000/guide/installing-hiyacfw-(no-ugopwn)/">
 
 
 
@@ -201,7 +201,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/installing-unlaunch/" class="">Installing Unlaunch</a></li>
+            <li><a href="http://localhost:4000/guide/installing-unlaunch-(no-ugopwn)/" class="">Installing Unlaunch</a></li>
           
             
             
@@ -209,7 +209,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/installing-hiyacfw/" class="">Installing HiyaCFW</a></li>
+            <li><a href="http://localhost:4000/guide/installing-hiyacfw-(no-ugopwn)/" class="active">Installing HiyaCFW</a></li>
           
             
             
@@ -217,7 +217,7 @@
             
             
 
-            <li><a href="http://localhost:4000/guide/finalizing-setup/" class="">Finalizing Setup</a></li>
+            <li><a href="http://localhost:4000/guide/finalizing-setup-(no-ugopwn)/" class="">Finalizing Setup</a></li>
           
         </ul>
         
@@ -238,14 +238,6 @@
             
 
             <li><a href="http://localhost:4000/more/dumping-dsiware-from-3ds/" class="">Dumping DSiWare from 3DS</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/more/installing-an-entrypoint/" class="active">Installing an Entrypoint</a></li>
           
             
             
@@ -287,7 +279,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Installing an Entrypoint">
+    <meta itemprop="headline" content="Installing HiyaCFW (No ugopwn)">
     
     
     
@@ -295,7 +287,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Installing an Entrypoint
+          <h1 class="page__title" itemprop="headline">Installing HiyaCFW (No ugopwn)
 </h1>
           
         </header>
@@ -305,28 +297,107 @@
         
 		<p class="notice">If you like the guide, please consider donating via <a href="/donate">PayPal</a>.</p>
     <p class="notice">If you have any issues or problems, ask on our <a href="/help/discord/">Discord Servers</a>.</p>
-        <p class="notice--info">This guide only supports USA consoles for now.</p>
+        <p class="notice--info">You will need <a href="/guide/installing-unlaunch/">Unlaunch</a> installed before proceeding.</p>
 
-<p>We now have the option of installing multiple various entrypoints, allowing us to avoid running ugopwn every time we want to launch homebrew. This guide uses ugopwn, which is only supported on USA consoles for now, to install your entrypoint. A release of ugopwn for EUR and JPN consoles has been promised soon.</p>
+<p class="notice--danger">Do not system update after installing HiyaCFW. This will remove HiyaCFW’s SD patches.</p>
 
-<p>This is only necessary if you do not wish to install HiyaCFW, but want a homebrew entrypoint on your system.</p>
-
-<p>If you already have one of the following titles:</p>
-
+<p>HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will allow:</p>
 <ul>
-  <li>Fieldrunners</li>
-  <li>Legends of Exidia</li>
-  <li>Guitar Rock Tour</li>
-  <li>The Legend of Zelda: Four Swords Anniversary</li>
+  <li>Booting the system from SD card</li>
+  <li>Installing homebrew applications to the Home Menu</li>
+  <li>Launching blocked flashcards on later versions</li>
 </ul>
 
-<p>follow the <strong>Installing an Entrypoint (pre-owned title)</strong> guide, which contains twlnf scripts to install the hacked save.</p>
+<h2 id="what-you-need">What you need</h2>
+<ul>
+  <li>The latest release of <a href="https://www.python.org/downloads/" target="_blank">Python 3</a>
+    <ul>
+      <li>You should already have this from previous sections</li>
+    </ul>
+  </li>
+  <li>An SD card that is 2GB or smaller, or a larger SD card that is partitioned to be 2GB or smaller</li>
+  <li>The latest release of <a href="https://github.com/Jimmy-Z/twlnf/releases" target="_blank">twlnf</a></li>
+  <li>The latest release of <a href="https://github.com/Robz8/hiyaCFW/releases">HiyaCFW</a></li>
+  <li><a href="/assets/files/NUSDownloader.zip">NUSDownloader</a></li>
+  <li>A NAND backup taken from your device, with the NO$GBA Footer
+    <ul>
+      <li>twlnf will create this footer automatically when it makes a backup</li>
+    </ul>
+  </li>
+  <li><a href="/assets/files/hiyacfw_helper.zip">Helper scripts for HiyaCFW installation</a></li>
+</ul>
 
-<p style="text-align: center;"><a href="/more/installing-an-entrypoint-(pre-owned)" class="btn btn--light-outline">Installing an Entrypoint (pre-owned title)</a></p>
+<h2 id="preparation">Preparation</h2>
+<ol>
+  <li>Insert your &lt;2GB SD card into your PC</li>
+  <li>Copy <em>the contents of</em> the NUSDownloader <code class="highlighter-rouge">.zip</code> file to a folder on your PC</li>
+  <li>Copy <em>the contents of</em> the HiyaCFW <code class="highlighter-rouge">.7z</code> file to a folder on your PC</li>
+  <li>Copy <em>the contents of</em> the HiyaCFW helper <code class="highlighter-rouge">.7z</code> to the <code class="highlighter-rouge">for PC</code> folder in your HiyaCFW folder</li>
+  <li>Copy <em>the contents of</em> the twlnf <code class="highlighter-rouge">.7z</code> file to the root of your &lt;2GB SD card</li>
+  <li>Open NUSDownloader on your computer
+    <ul>
+      <li>This can be done through <a href="http://www.mono-project.com/">Mono</a> on Mac/Linux/*nix systems</li>
+    </ul>
+  </li>
+  <li>Check the “Create Decrypted Contents (*.app)” box, and uncheck the “Keep Enc. Contents” box</li>
+  <li>Select <strong>Database &gt; System (DSi) &gt; System Menu (Launcher) &gt; [Your Region] &gt; v512 &gt; Start NUS Download!</strong></li>
+  <li>Exit NUS Downloader</li>
+  <li>Navigate to <strong>titles &gt; 00030017484e41XX &gt; 512</strong> in your NUS Downloader directory</li>
+  <li>Copy <code class="highlighter-rouge">00000002.app</code> from the <code class="highlighter-rouge">512</code> folder to the HiyaCFW <code class="highlighter-rouge">for PC</code> folder</li>
+  <li>Copy your valid NAND backup to the HiyaCFW <code class="highlighter-rouge">for PC</code> folder</li>
+</ol>
 
-<p>Otherwise, follow the <strong>Installing Sudokuhax</strong> guide, which will install an older version of Sudoku, as well as a corresponding hacked save.</p>
+<h2 id="instructions">Instructions</h2>
+<ol>
+  <li>Insert your &lt;2GB SD card into your system</li>
+  <li>Power on your DSi</li>
+  <li>Launch your homebrew entrypoint
+    <ul>
+      <li>This should open twlnf</li>
+    </ul>
+  </li>
+  <li>Press <strong>X</strong> to mount the system NAND directly</li>
+  <li>Press <strong>START</strong> to open twlnf’s menu</li>
+  <li>Press <strong>R</strong> to dump the NAND contents to your SD card
+    <ul>
+      <li>This will take several minutes</li>
+      <li>Keep your system plugged in during this process, to avoid sudden power loss</li>
+      <li>When <code class="highlighter-rouge">walk returned 0</code> appears, the process is complete</li>
+    </ul>
+  </li>
+  <li>Once finished, press <strong>Select</strong> to quit twlnf</li>
+  <li>Press <strong>A</strong> to confirm
+    <ul>
+      <li>Your console will power off</li>
+    </ul>
+  </li>
+  <li>Insert your &lt;2GB SD card into your PC</li>
+  <li>Move all files from the <code class="highlighter-rouge">dump</code> directory to the root of the SD card
+    <ul>
+      <li>This prepares the “SD NAND”,  which HiyaCFW will boot from</li>
+    </ul>
+  </li>
+  <li>Navigate to the HiyaCFW <code class="highlighter-rouge">for PC</code> folder</li>
+  <li>Run <code class="highlighter-rouge">hiyacfw_helper.py</code> to prepare modifications
+    <ul>
+      <li>This script requires <a href="https://www.winehq.org/" target="_blank">WINE</a> on Mac/Linux/*nix systems</li>
+    </ul>
+  </li>
+  <li>Open the new <code class="highlighter-rouge">Modified Files</code> folder</li>
+  <li>Copy <code class="highlighter-rouge">bootloader.nds</code> to the root of your &lt;2GB SD card</li>
+  <li>Copy 00000002.app to <strong>title &gt; 00030017 &gt; 484e41XX &gt; content</strong> folder on your &lt;2GB SD card</li>
+  <li>Copy <em>the contents of</em> the HiyaCFW <code class="highlighter-rouge">for 2GB (or lower) SD card (SDNAND)</code> folder to the root of your &lt;2GB SD card</li>
+  <li>Unplug your &lt;2GB SD card, and insert it in your DSi</li>
+  <li>Power on your console
+    <ul>
+      <li>HiyaCFW’s splash screen should appear</li>
+    </ul>
+  </li>
+</ol>
 
-<p style="text-align: center;"><a href="/more/installing-sudokuhax" class="btn btn--light-outline">Installing an Entrypoint (sudokuhax)</a></p>
+<p>Your system should now boot from the SD card instead of the internal NAND.</p>
+
+<p style="text-align: center;"><a href="/guide/finalizing-setup" class="btn btn--light-outline">Finalizing Setup</a></p>
 
         
       </section>

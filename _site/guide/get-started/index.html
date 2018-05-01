@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Installing an Entrypoint - DSi Guide</title>
+<!-- begin _includes/seo.html --><title>Get Started - DSi Guide</title>
 <meta name="description" content="A complete Nintendo DSi homebrew guide, from stock to HiyaCFW.">
 
 
@@ -17,8 +17,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_UK">
 <meta property="og:site_name" content="DSi Guide">
-<meta property="og:title" content="Installing an Entrypoint">
-<meta property="og:url" content="http://localhost:4000/more/installing-an-entrypoint/">
+<meta property="og:title" content="Get Started">
+<meta property="og:url" content="http://localhost:4000/guide/get-started/">
 
 
 
@@ -36,7 +36,7 @@
   
 
 
-<link rel="canonical" href="http://localhost:4000/more/installing-an-entrypoint/">
+<link rel="canonical" href="http://localhost:4000/guide/get-started/">
 
 
 
@@ -179,106 +179,6 @@
   <label for="ac-toc">Toggle Menu</label>
   <ul class="nav__items">
     
-      <li>
-        
-          <span class="nav__sub-title">Guide</span>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/guide/get-started/" class="">Get Started</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/guide/installing-unlaunch/" class="">Installing Unlaunch</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/guide/installing-hiyacfw/" class="">Installing HiyaCFW</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/guide/finalizing-setup/" class="">Finalizing Setup</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          <span class="nav__sub-title">More</span>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/more/dumping-dsiware-from-3ds/" class="">Dumping DSiWare from 3DS</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/more/installing-an-entrypoint/" class="active">Installing an Entrypoint</a></li>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/more/using-srloader/" class="">Using SRLoader</a></li>
-          
-        </ul>
-        
-      </li>
-    
-      <li>
-        
-          <span class="nav__sub-title">Help</span>
-        
-
-        
-        <ul>
-          
-            
-            
-
-            
-            
-
-            <li><a href="http://localhost:4000/help/discord/" class="">Discord</a></li>
-          
-        </ul>
-        
-      </li>
-    
   </ul>
 </nav>
     
@@ -287,7 +187,7 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Installing an Entrypoint">
+    <meta itemprop="headline" content="Get Started">
     
     
     
@@ -295,7 +195,7 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Installing an Entrypoint
+          <h1 class="page__title" itemprop="headline">Get Started
 </h1>
           
         </header>
@@ -305,28 +205,30 @@
         
 		<p class="notice">If you like the guide, please consider donating via <a href="/donate">PayPal</a>.</p>
     <p class="notice">If you have any issues or problems, ask on our <a href="/help/discord/">Discord Servers</a>.</p>
-        <p class="notice--info">This guide only supports USA consoles for now.</p>
+        <p class="notice--info">Non-USA includes European, Australian and Japanese consoles.</p>
 
-<p>We now have the option of installing multiple various entrypoints, allowing us to avoid running ugopwn every time we want to launch homebrew. This guide uses ugopwn, which is only supported on USA consoles for now, to install your entrypoint. A release of ugopwn for EUR and JPN consoles has been promised soon.</p>
+<p>Please select your console’s region below.</p>
 
-<p>This is only necessary if you do not wish to install HiyaCFW, but want a homebrew entrypoint on your system.</p>
+<table>
+  <colgroup>
+    <col span="1" style="width: 50%;" />
+    <col span="1" style="width: 50%;" />
+  </colgroup>
+  <tbody>
+    <tr>
+      <th>USA</th>
+      <th>Non-USA</th>
+    </tr>
+      <tr>
+        <td><a href="/guide/installing-unlaunch/"><img src="/assets/images/usa.png" alt="USA" /></a></td>
+        <td><a href="/guide/installing-unlaunch-(no-ugopwn)/"><img src="/assets/images/eurjpn.png" alt="Non-USA" /></a></td>
+      </tr>
+  </tbody>
+</table>
 
-<p>If you already have one of the following titles:</p>
+<p class="notice--info">If you have a USA console, you can install HiyaCFW without a previously installed exploit.</p>
 
-<ul>
-  <li>Fieldrunners</li>
-  <li>Legends of Exidia</li>
-  <li>Guitar Rock Tour</li>
-  <li>The Legend of Zelda: Four Swords Anniversary</li>
-</ul>
-
-<p>follow the <strong>Installing an Entrypoint (pre-owned title)</strong> guide, which contains twlnf scripts to install the hacked save.</p>
-
-<p style="text-align: center;"><a href="/more/installing-an-entrypoint-(pre-owned)" class="btn btn--light-outline">Installing an Entrypoint (pre-owned title)</a></p>
-
-<p>Otherwise, follow the <strong>Installing Sudokuhax</strong> guide, which will install an older version of Sudoku, as well as a corresponding hacked save.</p>
-
-<p style="text-align: center;"><a href="/more/installing-sudokuhax" class="btn btn--light-outline">Installing an Entrypoint (sudokuhax)</a></p>
+<p class="notice--info">If you have a European, Australian or Japanese console, you must have a previously installed DSiWare exploit to install HiyaCFW.</p>
 
         
       </section>
