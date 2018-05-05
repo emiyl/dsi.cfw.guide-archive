@@ -8,6 +8,12 @@ sidebar:
 Non-USA includes European, Australian and Japanese consoles.
 {: .notice--info}
 
+If you have a Non-USA console, you must have a previously installed DSiWare exploit to install HiyaCFW.
+{: .notice--info}
+
+You cannot install a DSiWare exploit on Non-USA consoles yet without a hardware modification.
+{: .notice--danger}
+
 Please select your console's region below.
 
 <table>
@@ -26,9 +32,3 @@ Please select your console's region below.
       </tr>
   </tbody>
 </table>
-
-If you have a USA console, you can install HiyaCFW without a previously installed exploit.
-{: .notice--info}
-
-If you have a European, Australian or Japanese console, you must have a previously installed DSiWare exploit to install HiyaCFW.
-{: .notice--info}

@@ -6,6 +6,7 @@ sidebar:
 ---
 
 Please read the FAQ before asking for help on [Discord](/help/discord).
+{: .notice--info}
 
 ## Unlaunch freezes at "LOADING FAT"
 
@@ -15,3 +16,7 @@ Please read the FAQ before asking for help on [Discord](/help/discord).
   - Reflashing the NAND can cause severe degredation
   - This method should only be used as a last resort
 - If neither methods work, please ask on [Discord](/help/discord)
+
+## Can I use an SD card higher than 2GB with HiyaCFW yet?
+
+No, not yet.
