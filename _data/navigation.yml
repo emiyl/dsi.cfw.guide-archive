@@ -32,6 +32,8 @@ side:
     children:
       - title: "Discord"
         url: /help/discord/
+      - title: "FAQ"
+        url: /help/faq/
 
 no-ugopwn:
   - title: Guide
@@ -56,3 +58,5 @@ no-ugopwn:
     children:
       - title: "Discord"
         url: /help/discord/
+      - title: "FAQ"
+        url: /help/faq/

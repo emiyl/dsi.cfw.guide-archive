@@ -1,0 +1,17 @@
+---
+title: FAQ
+layout: help
+sidebar:
+  nav: "side"
+---
+
+Please read the FAQ before asking for help on [Discord](/help/discord).
+
+## Unlaunch freezes at "LOADING FAT"
+
+- Delete any DSiWare installed via twlnf in the past
+  - Make sure you have another homebrew entrypoint available
+- If you have not installed any DSiWare via twlnf, or the above method doesn't work, try installing [Unlaunch via TempNAND](https://dsiguide.me/unlaunch_(TempNand)){:target="_blank"}
+  - Reflashing the NAND can cause severe degredation
+  - This method should only be used as a last resort
+- If neither methods work, please ask on [Discord](/help/discord)

@@ -81,8 +81,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 7. Navigate to `unlaunch.nds`, and press **A**
   - Unlaunch's installer should appear
 8. Navigate to `INSTALL NOW` and press **A**
-  - If Unlaunch freezes at `LOADING FAT`, there is currently **no safe way** to install Unlaunch on your system
-  - We are currently investigating this issue on the Discord; if you have this problem, stating if you've used twlnf in the past will help greatly
+  - If Unlaunch freezes at `LOADING FAT`, please read our [FAQ](/help/faq)
 9. When done, navigate to `POWER DOWN` and press **A**
   - Your system will power off
 10. Turn your system on, to verify Unlaunch installed properly
