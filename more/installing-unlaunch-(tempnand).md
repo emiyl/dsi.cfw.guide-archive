@@ -23,7 +23,6 @@ This method **severely degrades** the NAND and should only be used as a **last r
 - The latest release of [Python 3](https://www.python.org/downloads/){:target="_blank"}
 - The latest release of [DSi SRL Extractor](/assets/files/dsi_srl_extract.zip)
 - The latest release of [No$GBA](http://problemkaputt.de/gba.htm){:target="_blank"}
-- The [Nintendo DSi BIOS](https://archive.org/download/DSiFirmwareFiles/DSi%20firmware%20files.zip)
 - A random `.nds` rom file
 
 ## Preparing SD card
@@ -56,27 +55,28 @@ This method **severely degrades** the NAND and should only be used as a **last r
 12. Click on the paste button exactly 122 times.
 13. Select "Erase" and then "Paste"
   - This should launch fwTool
-14. Select the options `Dump CID` and `Dump  nand_dsi.bin`
+14. Select the options `Dump CID` and `Dump BIOS`
+15. Select `Dump  nand_dsi.bin`
   - This will take a few minutes
 15. Once finished, power off your device
 
-## Preparing for TempNAND
+## Preparing for TempNAND and No$GBA
 
-1. Insert your SD card into your computer
-2. Open the folder in your SD card with seemingly random numbers
-3. Copy `nand_dsi.bin` to a safe location on your computer
-4. Rename `nand_dsi.bin` to `clean_nand_dsi.bin`
-5. Copy `CID.bin` to a safe location on your computer
-6. Copy the contents of the Unlaunch `.zip` file to a folder on your Desktop
-7. Copy the contents of the DSi SRL Extractor `.zip` file to a folder on your Desktop
-8. Navigate to /Private/DS/Title/ on your SD card
-9. Copy the `.bin` file to your DSi SRL Extractor folder
-10. Run the `console_id.py` file inside the folder
+1. Download and extract the No$GBA `.zip` file to a folder on your Desktop
+2. Insert your SD card into your computer
+3. Open the folder in your SD card with seemingly random numbers
+4. Copy the DSi BIOS to the NO$GBA folder
+4. Copy `nand_dsi.bin` to a safe location on your computer
+5. Rename `nand_dsi.bin` to `clean_nand_dsi.bin`
+6. Copy `CID.bin` to a safe location on your computer
+7. Copy the contents of the Unlaunch `.zip` file to a folder on your Desktop
+8. Copy the contents of the DSi SRL Extractor `.zip` file to a folder on your Desktop
+9. Navigate to /Private/DS/Title/ on your SD card
+10. Copy the `.bin` file to your DSi SRL Extractor folder
+11. Run the `console_id.py` file inside the folder
   - This script requires [WINE](https://www.winehq.org/){:target="_blank"} on Mac/Linux/*nix systems
-11. When prompted, press Enter
-12. Copy the new `console_id.txt` file to a safe location on your computer
-13. Download and extract the No$GBA `.zip` file to a folder on your Desktop
-14. Download and extract the DSi BIOS files to the NO$GBA folder
+12. When prompted, press Enter
+13. Copy the new `console_id.txt` file to a safe location on your computer
 
 ## Using TempNAND
 
