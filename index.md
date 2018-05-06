@@ -6,7 +6,7 @@ excerpt: "A complete Nintendo DSi homebrew guide, from stock to HiyaCFW."
 header:
   overlay_color: "#1a1d24"
   cta_label: "Get Started"
-  cta_url: /guide/get-started/
+  cta_url: /guide/installing-unlaunch
 ---
 
 This guide is not compatible with development DSi consoles or Chinese iQue DSi consoles.

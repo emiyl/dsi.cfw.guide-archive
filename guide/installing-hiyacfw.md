@@ -5,7 +5,7 @@ sidebar:
   nav: "side"
 ---
 
-This guide only supports USA consoles for now.
+If you have a non-USA console, you must have a DSiWare exploit previously installed to continue.
 {: .notice--info}
 
 You will need [Unlaunch](/guide/installing-unlaunch/) installed before proceeding.
@@ -19,15 +19,16 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 - Installing homebrew applications to the Home Menu
 - Launching blocked flashcards on later versions
 
-## What you need
+## Requirements
 - The latest release of [Python 3](https://www.python.org/downloads/){:target="_blank"}
-  - You should already have this from previous sections
+  - You should already have this from previous section
 - An SD card that is 2GB or smaller, or a larger SD card that is partitioned to be 2GB or smaller
 - The latest release of [twlnf](https://github.com/Jimmy-Z/twlnf/releases){:target="_blank"}
 - The latest release of [HiyaCFW](https://github.com/Robz8/hiyaCFW/releases)
 - [NUSDownloader](/assets/files/NUSDownloader.zip)
 - A NAND backup taken from your device, with the NO$GBA Footer
   - twlnf will create this footer automatically when it makes a backup
+  - You should already have this backup from the previous section
 - [Helper scripts for HiyaCFW installation](/assets/files/hiyacfw_helper.zip)
 
 ## Preparation
@@ -50,6 +51,7 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 2. Power on your DSi
 3. Open the Flipnote Studio application
   - Ensure that the *booting to Calendar mode* is disabled in Flipnote Studio's settings
+  - If you already have another DSiWare exploit installed, open that and skip to Step 16
 4. Select **View Flipnote > SD Card > Select Folder > User > ugopwn**
 5. Click on the note with the red bottom half
 6. Select "Edit"

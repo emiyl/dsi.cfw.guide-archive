@@ -10,8 +10,6 @@ main:
 side:
   - title: Guide
     children:
-      - title: "Get Started"
-        url: /guide/get-started/
       - title: "Installing Unlaunch"
         url: /guide/installing-unlaunch/
       - title: "Installing HiyaCFW"
@@ -25,32 +23,6 @@ side:
         url: /more/dumping-dsiware-from-3ds/
       - title: "Installing an Entrypoint"
         url: /more/installing-an-entrypoint/
-      - title: "Using SRLoader"
-        url: /more/using-srloader/
-
-  - title: Help
-    children:
-      - title: "Discord"
-        url: /help/discord/
-      - title: "FAQ"
-        url: /help/faq/
-
-no-ugopwn:
-  - title: Guide
-    children:
-      - title: "Get Started"
-        url: /guide/get-started/
-      - title: "Installing Unlaunch"
-        url: /guide/installing-unlaunch-(no-ugopwn)/
-      - title: "Installing HiyaCFW"
-        url: /guide/installing-hiyacfw-(no-ugopwn)/
-      - title: "Finalizing Setup"
-        url: /guide/finalizing-setup-(no-ugopwn)/
-
-  - title: More
-    children:
-      - title: "Dumping DSiWare from 3DS"
-        url: /more/dumping-dsiware-from-3ds/
       - title: "Using SRLoader"
         url: /more/using-srloader/
 

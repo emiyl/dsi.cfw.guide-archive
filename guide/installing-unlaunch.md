@@ -5,7 +5,7 @@ sidebar:
   nav: "side"
 ---
 
-This guide only supports USA consoles for now.
+If you have a non-USA console, you must have a DSiWare exploit previously installed to continue.
 {: .notice--info}
 
 Unlaunch is currently in a beta state. Please exercise **extreme caution**. You and you alone are responsible for any damage done to your system.
@@ -20,6 +20,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 - The latest release of [Unlaunch](http://problemkaputt.de/unlaunch.zip)
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/)
 - The latest release of [ugopwn](/assets/files/ugopwn.zip)
+  - Only for USA consoles
 - The latest release of [twlnf](https://github.com/Jimmy-Z/twlnf/releases){:target="_blank"}
 - The latest release of [Python 3](https://www.python.org/downloads/){:target="_blank"}
 - The latest release of [DSi SRL Extractor](/assets/files/dsi_srl_extract.zip)
@@ -33,6 +34,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 4. Once finished, power off your device
 5. Take your SD card out of your console and insert it into your computer
 6. Copy the contents of the ugopwn `.zip` file to the root of your SD card
+  - Only for USA consoles
 7. Copy the contents of the twlnf `.7z` file to the root of your SD card, and rename `twlnf.nds` to `boot.nds`
 8. Copy the contents of the DSi SRL Extractor `.zip` file to a folder on your Desktop
 9. Open the SD card drive on your computer
@@ -48,6 +50,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 
 1. Open the Flipnote Studio application
   - Ensure that the *booting to Calendar mode* is disabled in Flipnote Studio's settings
+  - If you already have another DSiWare exploit installed, open that and skip to Step 14
 2. Select **View Flipnote > SD Card > Select Folder > User > ugopwn**
 3. Click on the note with the red bottom half
 4. Select "Edit"
