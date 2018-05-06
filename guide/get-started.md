@@ -5,30 +5,22 @@ sidebar:
   nav: "get-started"
 ---
 
-Non-USA includes European, Australian and Japanese consoles.
-{: .notice--info}
-
-If you have a Non-USA console, you must have a previously installed DSiWare exploit to install HiyaCFW.
+Flipnote Studio is only exploitable on USA consoles. Support for Non-USA consoles is coming soon.
 {: .notice--info}
 
 You cannot install a DSiWare exploit on Non-USA consoles yet without a hardware modification.
-{: .notice--danger}
+{: .notice--info}
 
-Please select your console's region below.
+Please specify if you have a DSiWare exploit installed or not.
 
-<table>
-  <colgroup>
-    <col span="1" style="width: 50%;" />
-    <col span="1" style="width: 50%;" />
-  </colgroup>
-  <tbody>
-    <tr>
-      <th>USA</th>
-      <th>Non-USA</th>
-    </tr>
-      <tr>
-        <td><a href="/guide/installing-unlaunch/"><img src="/assets/images/usa.png" alt="USA"></a></td>
-        <td><a href="/guide/installing-unlaunch-(no-ugopwn)/"><img src="/assets/images/eurjpn.png" alt="Non-USA"></a></td>
-      </tr>
-  </tbody>
-</table>
+If you do not have a DSiWare exploit, you will launch homebrew via Flipnote Studio using ugopwn, a DSiWare exploit for USA consoles only. Support for non-USA consoles is coming soon.
+
+[Installing Unlaunch](/guide/installing-unlaunch/){: .btn .btn--light-outline}
+{: .text-center}
+
+---
+
+If you already have a DSiWare exploit installed, you will be able to go through to installing HiyaCFW on any DSi console.
+
+[Installing Unlaunch (No Ugopwn)](/guide/installing-unlaunch-(no-ugopwn)/){: .btn .btn--light-outline}
+{: .text-center}

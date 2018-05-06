@@ -9,6 +9,9 @@ header:
   cta_url: /guide/get-started/
 ---
 
+This guide is not compatible with development DSi consoles or Chinese iQue DSi consoles.
+{: .notice--info}
+
 ## What is homebrew?
 
 Homebrew applications are custom, user-made software, which haven't been authorised by Nintendo. This can include save editing tools, games, emulators, and more.
