@@ -25,6 +25,7 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 - An SD card that is 2GB or smaller, or a larger SD card that is partitioned to be 2GB or smaller
 - The latest release of [twlnf](https://github.com/Jimmy-Z/twlnf/releases){:target="_blank"}
 - The latest release of [HiyaCFW](https://github.com/Robz8/hiyaCFW/releases){:target="_blank"}
+- The latest release of [ugopwn](/assets/files/ugopwn.zip)
 - [NUSDownloader](/assets/files/NUSDownloader.zip)
 - A NAND backup taken from your device, with the NO$GBA Footer
   - twlnf will create this footer automatically when it makes a backup
@@ -36,7 +37,8 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 2. Copy *the contents of* the NUSDownloader `.zip` file to a folder on your PC
 3. Copy *the contents of* the HiyaCFW `.7z` file to a folder on your PC
 4. Copy *the contents of* the HiyaCFW helper `.7z` to the `for PC` folder in your HiyaCFW folder
-5. Copy *the contents of* the twlnf `.7z` file to the root of your <2GB SD card
+5. Copy *the contents of* the ugopwn `.zip` file to the root of your <2GB SD card
+5. Copy *the contents of* the twlnf `.7z` file to the root of your <2GB SD card, and rename `twlnf.nds` to `boot.nds`
 6. Open NUSDownloader on your computer
   - This can be done through [Mono](http://www.mono-project.com/) on Mac/Linux/*nix systems
 7. Check the "Create Decrypted Contents (*.app)" box, and uncheck the "Keep Enc. Contents" box
