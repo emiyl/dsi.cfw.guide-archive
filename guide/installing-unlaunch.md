@@ -8,7 +8,7 @@ sidebar:
 If you have a non-USA console, you must have a DSiWare exploit previously installed to continue.
 {: .notice--info}
 
-Unlaunch is currently in a beta state. Please read the guide carefully.
+Unlaunch is currently in a beta state. Please proceed with caution.
 {: .notice--info}
 
 Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DSi Custom Firmware, to your console.
