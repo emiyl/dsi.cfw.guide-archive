@@ -8,11 +8,8 @@ sidebar:
 If you have a non-USA console, you must have a DSiWare exploit previously installed to continue.
 {: .notice--info}
 
-Unlaunch is currently in a beta state. Please exercise **extreme caution**. You and you alone are responsible for any damage done to your system.
-{: .notice--danger}
-
-Do not visit Data Management, the DSi Shop, or the 3DS Transfer Tool after installing Unlaunch until HiyaCFW installed. This will prevent your system from booting until restoring a NAND backup at best, or **brick it entirely** at worst. This notice will be updated once Unlaunch is safer.
-{: .notice--danger}
+Unlaunch is currently in a beta state. Please read the guide carefully.
+{: .notice--info}
 
 Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DSi Custom Firmware, to your console.
 
