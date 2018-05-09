@@ -1,6 +1,6 @@
 ---
-layout: single
 title: Credits
+layout: single
 sidebar:
   nav: "side"
 ---
@@ -30,7 +30,7 @@ sidebar:
     + Fra
     + takusan
     + smileyhead
-    
+
 </pre>{% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
