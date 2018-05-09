@@ -19,12 +19,10 @@ side:
 
   - title: More
     children:
+      - title: "Updating HiyaCFW"
+        url: /more/updating-hiyacfw/
       - title: "Dumping DSiWare from 3DS"
         url: /more/dumping-dsiware-from-3ds/
-      - title: "Installing an Entrypoint"
-        url: /more/installing-an-entrypoint/
-      - title: "Using SRLoader"
-        url: /more/using-srloader/
 
   - title: Help
     children:
