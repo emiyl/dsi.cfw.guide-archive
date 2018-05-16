@@ -30,9 +30,9 @@ You can learn more about SRLoader [here](https://gbatemp.net/threads/srloader-gu
 ## Usage
 1. Launch SRLoader using your homebrew entrypoint of choice
 2. You will now see a list of your NDS ROMs
-  - Press **Y** to launch homebrew applications
-  - Press **A** to launch commercial ROMs using nds-bootstrap
+  - Press **Y** to launch homebrew applications without nds-bootstrap
+  - Press **A** to launch commercial/homebrew ROMs using nds-bootstrap (Homebrew with DSi-extended header will not be ran by bootstrap)
   - Press **SELECT** to set a donor ROM when the compatibility list asks for one
-  - Press **DOWN** to toggle between NDS and NES/GBC ROMs
-  - Navigate to **Start GBARunner2** to run GBA ROMs
+  - Press **UP** or **DOWN** to toggle between NDS ROMs and DSiWare
+  - Press **START**, then navigate to **Start GBARunner2** to run GBA ROMs
   - Press **B** to return to the DSi Menu
