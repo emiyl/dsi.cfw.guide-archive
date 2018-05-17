@@ -41,14 +41,15 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 5. Copy *the contents of* the twlnf `.7z` file to the root of your <2GB SD card, and rename `twlnf.nds` to `boot.nds`
 6. Copy `console_id.txt` from the root of your normal SD card to the root of your <2GB SD card
   - Of course, this only applies if your <2GB SD card is not your normal one
-7. Open NUSDownloader on your computer
+7. Copy `nand.bin` and `nand.bin.sha` from the root of your normal SD card to the root of your <2GB SD card
+8. Open NUSDownloader on your computer
   - This can be done through [Mono](http://www.mono-project.com/) on Mac/Linux/*nix systems
-8. Check the "Create Decrypted Contents (*.app)" box, and uncheck the "Keep Enc. Contents" box
-9. Select **Database > System (DSi) > System Menu (Launcher) > [Your Region] > v512 > Start NUS Download!**
-10. Exit NUS Downloader
-11. Navigate to **titles > 00030017484e41XX > 512** in your NUS Downloader directory
-12. Copy `00000002.app` from the `512` folder to the HiyaCFW `for PC` folder
-13. Copy your valid NAND backup to the HiyaCFW `for PC` folder
+9. Check the "Create Decrypted Contents (*.app)" box, and uncheck the "Keep Enc. Contents" box
+10. Select **Database > System (DSi) > System Menu (Launcher) > [Your Region] > v512 > Start NUS Download!**
+11. Exit NUS Downloader
+12. Navigate to **titles > 00030017484e41XX > 512** in your NUS Downloader directory
+13. Copy `00000002.app` from the `512` folder to the HiyaCFW `for PC` folder
+14. Copy your valid NAND backup (`nand.bin`) to the HiyaCFW `for PC` folder
 
 ## Instructions
 1. Insert your <2GB SD card into your system
