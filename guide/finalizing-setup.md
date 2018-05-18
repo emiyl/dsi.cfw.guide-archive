@@ -5,7 +5,7 @@ sidebar:
   nav: "side"
 ---
 
-We will now install SRLoader to the System Menu using TWLit, a program which can help us install `.tia` files to the new SD NAND.
+We will now install SRLoader to the System Menu by copying it to your SD card.
 
 SRLoader is a homebrew application that can run homebrew and retail ROMs, and has several emulators built in.
 
@@ -24,3 +24,20 @@ SRLoader is a homebrew application that can run homebrew and retail ROMs, and ha
     - SRLoader should appear
 
 SRLoader should now be on your System Menu, as any other DSiWare would be. With SRLoader, you can run homebrew and retail ROMs, and use the several emulators which are built into the software.
+
+## Usage
+
+1. Copy ROMs to their respective folders
+  - Place Gameboy roms in `/roms/gb`
+  - Place NDS roms in `/roms/nds`
+  - Place NES roms in `/roms/nes`
+  - For GBA, make a folder in `roms` named `gba` and place roms there
+  - GBA requires a copy of the GBA BIOS named `bios.bin` on the root of your SD card, and currently has no saving support
+2. Launch SRLoader from the Home Menu
+3. You will now see a list of your NDS ROMs
+  - Press **Y** to launch homebrew applications without nds-bootstrap
+  - Press **A** to launch commercial/homebrew ROMs using nds-bootstrap (Homebrew with DSi-extended header will not be ran by bootstrap)
+  - Press **SELECT** to set a donor ROM when the compatibility list asks for one
+  - Press **UP** or **DOWN** to toggle between NDS ROMs and DSiWare
+  - Press **START**, then navigate to **Start GBARunner2** to run GBA ROMs
+  - Press **B** to return to the DSi Menu
