@@ -18,7 +18,7 @@ You can learn more about SRLoader [here](https://gbatemp.net/threads/srloader-gu
 
 ## Installation
 1. Insert your system's SD card into your computer
-2. Copy the contents of the twlnf `.7z` file to the root of your SD card
+2. Copy the contents of the SRLoader `.7z` file to the root of your SD card
   - If prompted to replace boot.nds, say yes
 3. Copy ROMs to their respective folders
   - Place Gameboy roms in `/roms/gb`
