@@ -7,7 +7,7 @@ xmlhttp.onreadystatechange = function() {
 			document.getElementById("translations").innerHTML = 'A German translation of this guide is available at <a href="http://dsi.de.cfw.guide">dsi.de.cfw.guide</a>.';
 			document.getElementById("translations").style.display = "block";
 		} else if(countrycode=="ES") {
-			document.getElementById("translations").innerHTML = 'A Spanish translation of this guide is available at <a href="http://dsi.es.cfw.guide">dsi.es.cfw.guide</a>.';
+			document.getElementById("translations").innerHTML = 'Una traducción en español de esta guía está disponible en <a href="http://dsi.es.cfw.guide">dsi.es.cfw.guide</a>.';
 			document.getElementById("translations").style.display = "block";
 		} else if(countrycode=="IT") {
 			document.getElementById("translations").innerHTML = 'Una traduzione italiana della guida è disponibile al link <a href="http://dsi.it.cfw.guide">dsi.it.cfw.guide</a>.';
