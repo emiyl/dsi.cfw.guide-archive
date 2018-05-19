@@ -1,0 +1,20 @@
+<div class="notice" id="translations"></div>
+<script language="Javascript" src="http://gd.geobytes.com/gd?after=-1&variables=GeobytesLocationCode,GeobytesCode,GeobytesInternet"></script>
+<script language="Javascript">
+	if(sGeobytesLocationCode=="DE")
+	{
+	   document.getElementById("translations").innerHTML = 'A German translation of this guide is available at <a href="http://dsi.de.cfw.guide">dsi.de.cfw.guide</a>.';
+	}else if(sGeobytesCode=="ES")
+	{
+	   document.getElementById("translations").innerHTML = 'A Spanish translation of this guide is available at <a href="http://dsi.es.cfw.guide">dsi.es.cfw.guide</a>.';
+	}else if(sGeobytesInternet=="IT")
+	{
+	   document.getElementById("translations").innerHTML = 'An Italian translation of this guide is available at <a href="http://dsi.it.cfw.guide">dsi.it.cfw.guide</a>.';
+	}else if(sGeobytesInternet=="FR")
+	{
+	   document.getElementById("translations").innerHTML = 'A French translation of this guide is available at <a href="http://dsi.fr.cfw.guide">dsi.fr.cfw.guide</a>.';
+	}else
+	{
+	   document.getElementById("translations").style.display = "none";
+	}
+</script>

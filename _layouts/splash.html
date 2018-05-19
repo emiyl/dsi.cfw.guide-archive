@@ -16,9 +16,8 @@ layout: default
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}>{% endif %}
 
     <section class="page__content" itemprop="text">
+	  {% include translations.html %}
 	  <div class="notice">If you like the guide, please consider donating via <a href="/donate">PayPal</a>.</div>
-
-
       {{ content }}
     </section>
   </article>
