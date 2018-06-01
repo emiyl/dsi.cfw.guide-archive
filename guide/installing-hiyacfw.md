@@ -8,6 +8,9 @@ sidebar:
 If you have a non-USA console, you must have a DSiWare exploit previously installed to continue.
 {: .notice--info}
 
+Before proceeding, make sure your console language is set to English.
+{: .notice--info}
+
 You will need [Unlaunch](/guide/installing-unlaunch/) installed before proceeding.
 {: .notice--info}
 
