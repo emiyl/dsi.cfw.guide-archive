@@ -5,7 +5,7 @@ sidebar:
   nav: "side"
 ---
 
-Before proceeding, make sure your console language is set to English (confirmed for USA).
+Before proceeding, if your system region is USA, make sure your console language is set to English.
 {: .notice--info}
 
 Unlaunch is currently in a beta state. Please proceed with caution.
@@ -16,8 +16,10 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 ## Downloads
 - The latest release of [Unlaunch](http://problemkaputt.de/unlaunch.zip)
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/){:target="_blank"}
-- The latest release of [ugopwn](/assets/files/ugopwn.zip)
-  - Only for USA consoles
+- The latest release of ugopwn for your region:
+  - [USA](/assets/files/ugopwn_usa.zip)
+  - [EUR](/assets/files/ugopwn_eur.zip)
+  - [JAP](/assets/files/ugopwn_jap.zip)
 - The latest release of [twlnf](https://github.com/Jimmy-Z/twlnf/releases){:target="_blank"}
 - The latest release of [Python 3](https://www.python.org/downloads/){:target="_blank"}
 - The latest release of [DSi SRL Extractor](/assets/files/dsi_srl_extract.zip)
@@ -30,8 +32,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 	- If Data Management isn't appearing, open the DSi Shop, close it, and then try again
 4. Once finished, power off your device
 5. Take your SD card out of your console and insert it into your computer
-6. Copy the contents of the ugopwn `.zip` file to the root of your SD card
-  - Only for USA consoles
+6. Copy the contents of your region's ugopwn `.zip` file to the root of your SD card
 7. Copy the contents of the twlnf `.7z` file to the root of your SD card, and rename `twlnf.nds` to `boot.nds`
 8. Copy the contents of the DSi SRL Extractor `.zip` file to a folder on your Desktop
 9. Open the SD card drive on your computer
@@ -59,7 +60,8 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 10. Click on the film roll icon.
 11. **USA/EUR:** Click on the single right arrow (the next to last arrow icon) two times
   - You will see a new frame be created
-12. **USA:** Click on the paste button exactly 122 times.
+12. Based on your region, do the following:
+  - **USA:** Click on the paste button exactly 122 times.
   - **EUR:** Click on the paste button exactly 2 times.
   - **JPN:** Click on the paste button. This should launch twlnf
 13. **USA/EUR:** Select "Erase" and then "Paste"
@@ -90,7 +92,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
   - You should briefly see the Unlaunch screen, and boot into a version of the DSi Menu with no sound
   - Hold **A**, if you're stuck on black screens
 
-With Unlaunch installed, your system now has primitive brick protection, unless the launcher's TMD file is destroyed. Unlaunch has protections that should prevent this from happening, and HiyaCFW uses your SD card as the DSi's NAND, making your system theoretically unbrickable.
+With Unlaunch installed, your system now has primitive brick protection, unless the launcher's TMD file is destroyed. Unlaunch has protections that should prevent this from happening, and HiyaCFW uses your SD card as the DSi's NAND, adding a very resilient layer of brick protection.
 
 [Installing HiyaCFW](/guide/installing-hiyacfw){: .btn .btn--light-outline}
 {: style="text-align: center;"}

@@ -5,7 +5,7 @@ sidebar:
   nav: "side"
 ---
 
-Before proceeding, make sure your console language is set to English (confirmed for USA).
+Before proceeding, if your system region is USA, make sure your console language is set to English.
 {: .notice--info}
 
 You will need [Unlaunch](/guide/installing-unlaunch/) installed before proceeding.
@@ -68,7 +68,8 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 12. Click on the film roll icon.
 13. **USA/EUR:** Click on the single right arrow (the next to last arrow icon) two times
   - You will see a new frame be created
-14. **USA:** Click on the paste button exactly 122 times.
+14. Based on your region, do the following:
+  - **USA:** Click on the paste button exactly 122 times.
   - **EUR:** Click on the paste button exactly 2 times.
   - **JPN:** Click on the paste button. This should launch twlnf
 15. **USA/EUR:** Select "Erase" and then "Paste"
