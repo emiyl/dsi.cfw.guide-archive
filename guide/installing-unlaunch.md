@@ -5,10 +5,7 @@ sidebar:
   nav: "side"
 ---
 
-If you have a non-USA console, you must have a DSiWare exploit previously installed to continue.
-{: .notice--info}
-
-Before proceeding, make sure your console language is set to English.
+Before proceeding, make sure your console language is set to English (confirmed for USA).
 {: .notice--info}
 
 Unlaunch is currently in a beta state. Please proceed with caution.
@@ -60,10 +57,12 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 8. Click the second note.
 9. Click on the Flipnote frog icon in the bottom left
 10. Click on the film roll icon.
-11. Click on the single right arrow (the next to last arrow icon) two times
+11. **USA/EUR:** Click on the single right arrow (the next to last arrow icon) two times
   - You will see a new frame be created
-12. Click on the paste button exactly 122 times.
-13. Select "Erase" and then "Paste"
+12. **USA:** Click on the paste button exactly 122 times.
+  - **EUR:** Click on the paste button exactly 2 times.
+  - **JPN:** Click on the paste button. This should launch twlnf
+13. **USA/EUR:** Select "Erase" and then "Paste"
   - This should launch twlnf
 14. When prompted, press **A** to create a nand backup
   - This will take a few minutes
@@ -89,6 +88,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
   - Your system will power off
 10. Turn your system on, to verify Unlaunch installed properly
   - You should briefly see the Unlaunch screen, and boot into a version of the DSi Menu with no sound
+  - Hold **A**, if you're stuck on black screens
 
 With Unlaunch installed, your system now has primitive brick protection, unless the launcher's TMD file is destroyed. Unlaunch has protections that should prevent this from happening, and HiyaCFW uses your SD card as the DSi's NAND, making your system theoretically unbrickable.
 

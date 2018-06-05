@@ -5,10 +5,7 @@ sidebar:
   nav: "side"
 ---
 
-If you have a non-USA console, you must have a DSiWare exploit previously installed to continue.
-{: .notice--info}
-
-Before proceeding, make sure your console language is set to English.
+Before proceeding, make sure your console language is set to English (confirmed for USA).
 {: .notice--info}
 
 You will need [Unlaunch](/guide/installing-unlaunch/) installed before proceeding.
@@ -69,10 +66,12 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 10. Click the second note.
 11. Click on the Flipnote frog icon in the bottom left
 12. Click on the film roll icon.
-13. Click on the single right arrow (the next to last arrow icon) two times
+13. **USA/EUR:** Click on the single right arrow (the next to last arrow icon) two times
   - You will see a new frame be created
-14. Click on the paste button exactly 122 times.
-15. Select "Erase" and then "Paste"
+14. **USA:** Click on the paste button exactly 122 times.
+  - **EUR:** Click on the paste button exactly 2 times.
+  - **JPN:** Click on the paste button. This should launch twlnf
+15. **USA/EUR:** Select "Erase" and then "Paste"
   - This should launch twlnf
 16. Press **X** to mount the system NAND directly
 17. Press **START** to open twlnf's menu
