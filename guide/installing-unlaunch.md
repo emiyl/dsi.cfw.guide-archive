@@ -88,7 +88,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
   - Your system will power off
 10. Turn your system on, to verify Unlaunch installed properly
   - You should briefly see the Unlaunch screen, and boot into a version of the DSi Menu with no sound
-  - Hold **A**, if you're stuck on black screens
+  - If you're stuck on black screens, hold **A** while powering on your system
 
 With Unlaunch installed, your system now has primitive brick protection, unless the launcher's TMD file is destroyed. Unlaunch has protections that should prevent this from happening, and HiyaCFW uses your SD card as the DSi's NAND, making your system theoretically unbrickable.
 
