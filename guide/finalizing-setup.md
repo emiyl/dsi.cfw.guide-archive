@@ -40,4 +40,8 @@ SRLoader should now be on your System Menu, as any other DSiWare would be. With 
   - Press **SELECT** to set a donor ROM when the compatibility list asks for one
   - Press **UP** or **DOWN** to toggle between NDS ROMs and DSiWare
   - Press **START**, then navigate to **Start GBARunner2** to run GBA ROMs
-  - Press **B** to return to the DSi Menu
+  - Press **X** in the DSi/3DS theme's START menu, to return to the DSi Menu
+4. (optional) You can have SRLoader as a DSi Menu replacement
+  - Press **START**, then navigate to **Settings**
+  - Select **Replace DSi Menu**
+  - SRLoader will now appear instead of the regular DSi Menu, when you power on your system, and exiting from an app
