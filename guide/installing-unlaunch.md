@@ -18,7 +18,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/){:target="_blank"}
 - The latest release of ugopwn for your region:
   - [USA](/assets/files/ugopwn_usa.zip)
-  - [EUR](/assets/files/ugopwn_eur.zip)
+  - [EUR/AUS](/assets/files/ugopwn_eur.zip)
   - [JAP](/assets/files/ugopwn_jap.zip)
 - The latest release of [twlnf](https://github.com/Jimmy-Z/twlnf/releases){:target="_blank"}
 - The latest release of [Python 3](https://www.python.org/downloads/){:target="_blank"}
@@ -58,13 +58,13 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 8. Click the second note.
 9. Click on the Flipnote frog icon in the bottom left
 10. Click on the film roll icon.
-11. **USA/EUR:** Click on the single right arrow (the next to last arrow icon) two times
+11. **USA/EUR/AUS:** Click on the single right arrow (the next to last arrow icon) two times
   - You will see a new frame be created
 12. Based on your region, do the following:
   - **USA:** Click on the paste button exactly 122 times.
-  - **EUR:** Click on the paste button exactly 2 times.
+  - **EUR/AUS:** Click on the paste button exactly 2 times.
   - **JPN:** Click on the paste button. This should launch twlnf
-13. **USA/EUR:** Select "Erase" and then "Paste"
+13. **USA/EUR/AUS:** Select "Erase" and then "Paste"
   - This should launch twlnf
 14. When prompted, press **A** to create a nand backup
   - This will take a few minutes

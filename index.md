@@ -27,7 +27,6 @@ Custom firmware enables you to use more advanced hacks that userland homebrew ca
 ## What should I know before starting?
 
 - Homebrew allows you to modify your system, which could easily result in a brick if done improperly
-- Be careful when restoring modified NAND backups and make sure to test them in [NO$GBA](https://problemkaputt.de/gba.htm){:target="_blank"} before restoring them
 - Keep your console plugged in at all times during this process to avoid sudden power loss
 - You will need an SD card to use this guide
   - Your console should come with one

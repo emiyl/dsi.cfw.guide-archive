@@ -25,7 +25,10 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 - An SD card that is 2GB or smaller, or a larger SD card that is partitioned to be 2GB or smaller
 - The latest release of [twlnf](https://github.com/Jimmy-Z/twlnf/releases){:target="_blank"}
 - The latest release of [HiyaCFW](https://github.com/Robz8/hiyaCFW/releases){:target="_blank"}
-- The latest release of [ugopwn](/assets/files/ugopwn.zip)
+- The latest release of ugopwn for your region:
+  - [USA](/assets/files/ugopwn_usa.zip)
+  - [EUR/AUS](/assets/files/ugopwn_eur.zip)
+  - [JAP](/assets/files/ugopwn_jap.zip)
 - [NUSDownloader](/assets/files/NUSDownloader.zip)
 - A NAND backup taken from your device, with the NO$GBA Footer
   - twlnf will create this footer automatically when it makes a backup
@@ -66,13 +69,13 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 10. Click the second note.
 11. Click on the Flipnote frog icon in the bottom left
 12. Click on the film roll icon.
-13. **USA/EUR:** Click on the single right arrow (the next to last arrow icon) two times
+13. **USA/EUR/AUS:** Click on the single right arrow (the next to last arrow icon) two times
   - You will see a new frame be created
 14. Based on your region, do the following:
   - **USA:** Click on the paste button exactly 122 times.
-  - **EUR:** Click on the paste button exactly 2 times.
+  - **EUR/AUS:** Click on the paste button exactly 2 times.
   - **JPN:** Click on the paste button. This should launch twlnf
-15. **USA/EUR:** Select "Erase" and then "Paste"
+15. **USA/EUR/AUS:** Select "Erase" and then "Paste"
   - This should launch twlnf
 16. Press **X** to mount the system NAND directly
 17. Press **START** to open twlnf's menu
@@ -93,8 +96,9 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 26. Open the new `Modified Files` folder
 27. Copy `bootloader.nds` to the `hiya` folder on your <2GB SD card
 28. Copy 00000002.app to **title > 00030017 > 484e41XX > content** folder on your <2GB SD card
-29. Unplug your <2GB SD card, and insert it in your DSi
-30. Power on your console
+  - XX denotes your region: 45 for USA, 50 for EUR, 4A for JAP, 55 for AUS
+1. Unplug your <2GB SD card, and insert it in your DSi
+2. Power on your console
   - HiyaCFW's splash screen should appear
 
 Your system should now boot from the SD card instead of the internal NAND.
