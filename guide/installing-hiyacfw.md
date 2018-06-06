@@ -25,7 +25,10 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 - An SD card that is 2GB or smaller, or a larger SD card that is partitioned to be 2GB or smaller
 - The latest release of [twlnf](https://github.com/Jimmy-Z/twlnf/releases){:target="_blank"}
 - The latest release of [HiyaCFW](https://github.com/Robz8/hiyaCFW/releases){:target="_blank"}
-- The latest release of [ugopwn](/assets/files/ugopwn.zip)
+- The latest release of ugopwn for your region:
+  - [USA](/assets/files/ugopwn_usa.zip)
+  - [EUR](/assets/files/ugopwn_eur.zip)
+  - [JAP](/assets/files/ugopwn_jap.zip)
 - [NUSDownloader](/assets/files/NUSDownloader.zip)
 - A NAND backup taken from your device, with the NO$GBA Footer
   - twlnf will create this footer automatically when it makes a backup
