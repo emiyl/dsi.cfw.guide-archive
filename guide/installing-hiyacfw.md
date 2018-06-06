@@ -65,8 +65,8 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 6. Select "Edit"
 7. Click on the Flipnote frog icon in the bottom left
 8. Click on the film roll icon
-9. Select **Copy > Back > Exit**
-10. Click the second note.
+9. Select **Copy > Back > Quit**
+10. Click the second note, and select "Edit"
 11. Click on the Flipnote frog icon in the bottom left
 12. Click on the film roll icon.
 13. **USA/EUR/AUS:** Click on the single right arrow (the next to last arrow icon) two times
@@ -97,8 +97,8 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 27. Copy `bootloader.nds` to the `hiya` folder on your <2GB SD card
 28. Copy 00000002.app to **title > 00030017 > 484e41XX > content** folder on your <2GB SD card
   - XX denotes your region: 45 for USA, 50 for EUR, 4A for JAP, 55 for AUS
-1. Unplug your <2GB SD card, and insert it in your DSi
-2. Power on your console
+29. Unplug your <2GB SD card, and insert it in your DSi
+30. Power on your console
   - HiyaCFW's splash screen should appear
 
 Your system should now boot from the SD card instead of the internal NAND.

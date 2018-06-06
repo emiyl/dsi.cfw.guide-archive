@@ -54,8 +54,8 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 4. Select "Edit"
 5. Click on the Flipnote frog icon in the bottom left
 6. Click on the film roll icon
-7. Select **Copy > Back > Exit**
-8. Click the second note.
+7. Select **Copy > Back > Quit**
+8. Click the second note, and select "Edit"
 9. Click on the Flipnote frog icon in the bottom left
 10. Click on the film roll icon.
 11. **USA/EUR/AUS:** Click on the single right arrow (the next to last arrow icon) two times
