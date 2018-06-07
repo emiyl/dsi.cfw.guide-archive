@@ -16,10 +16,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 ## Downloads
 - The latest release of [Unlaunch](http://problemkaputt.de/unlaunch.zip)
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/){:target="_blank"}
-- The latest release of ugopwn for your region:
-  - [USA](/assets/files/ugopwn_usa.zip)
-  - [EUR/AUS](/assets/files/ugopwn_eur.zip)
-  - [JAP](/assets/files/ugopwn_jap.zip)
+- The latest release of [ugopwn](/assets/files/ugopwn.zip)
 - The latest release of [twlnf](https://github.com/Jimmy-Z/twlnf/releases){:target="_blank"}
 - The latest release of [Python 3](https://www.python.org/downloads/){:target="_blank"}
 - The latest release of [DSi SRL Extractor](/assets/files/dsi_srl_extract.zip)
@@ -32,7 +29,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 	- If Data Management isn't appearing, open the DSi Shop, close it, and then try again
 4. Once finished, power off your device
 5. Take your SD card out of your console and insert it into your computer
-6. Copy the contents of your region's ugopwn `.zip` file to the root of your SD card
+6. Copy the contents of the ugopwn `.zip` file to the root of your SD card
 7. Copy the contents of the twlnf `.7z` file to the root of your SD card, and rename `twlnf.nds` to `boot.nds`
 8. Copy the contents of the DSi SRL Extractor `.zip` file to a folder on your Desktop
 9. Open the SD card drive on your computer
