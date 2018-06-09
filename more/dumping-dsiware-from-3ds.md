@@ -31,4 +31,6 @@ This guide will allow you to dump DSiWare for use on your DSi console. You will 
 
 Your dump should now be located on your 3DS's SD card in the folder `gm9/out`.
 
-This guide is not finished yet. The next section will walk you through installing DSiWare to your DSi. Please check later for these instructions.
+[Installing DSiWare](/more/installing-dsiware){: .btn .btn--light-outline}
+{: style="text-align: center;"}
+

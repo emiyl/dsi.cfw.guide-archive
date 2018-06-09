@@ -25,6 +25,10 @@ side:
         url: /more/updating-hiyacfw/
       - title: "Dumping DSiWare from 3DS"
         url: /more/dumping-dsiware-from-3ds/
+      - title: "Installing DSiWare"
+        url: /more/installing-dsiware/
+      - title: "Replacing System Menu with SRLoader"
+        url: /more/replacing-system-menu/
 
   - title: Help
     children:

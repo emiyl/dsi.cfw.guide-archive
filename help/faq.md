@@ -19,4 +19,4 @@ Please read the FAQ before asking for help on [Discord](/help/discord).
 
 ## Can I use an SD card higher than 2GB with HiyaCFW yet?
 
-No, not yet.
+Yes, using SRLoader. See the [Replacing System Menu with SRLoader](/more/replacing-system-menu/) page for more information.
