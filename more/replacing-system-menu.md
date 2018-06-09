@@ -5,7 +5,7 @@ sidebar:
   nav: "side"
 ---
 
-You will need [Unlaunch and HiyaCFW](/guide/installing-unlaunch/) installed before proceeding.
+You will need [Unlaunch](/guide/installing-unlaunch/) and [HiyaCFW](/guide/installing-hiyacfw/) installed before proceeding.
 {: .notice--info}
 
 Replacing the System Menu with SRLoader will allow for a few advantages over the built-in System Menu:

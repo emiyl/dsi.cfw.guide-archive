@@ -5,7 +5,7 @@ sidebar:
   nav: "side"
 ---
 
-You will need [Unlaunch and HiyaCFW](/guide/installing-unlaunch/) installed before proceeding.
+You will need [Unlaunch](/guide/installing-unlaunch/) and [HiyaCFW](/guide/installing-hiyacfw/) installed before proceeding.
 {: .notice--info}
 
 Now that we have a DSiWare to install, we can use HiyaCFW to install it to our system with ease

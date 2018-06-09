@@ -5,7 +5,7 @@ sidebar:
   nav: "side"
 ---
 
-This guide requires HiyaCFW to be previously installed.
+You will need [Unlaunch](/guide/installing-unlaunch/) and [HiyaCFW](/guide/installing-hiyacfw/) installed before proceeding.
 {: .notice--info}
 
 ## Downloads
