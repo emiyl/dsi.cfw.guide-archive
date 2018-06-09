@@ -65,7 +65,7 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 10. Navigate to the HiyaCFW `for PC` folder
 11. Run `hiyacfw_helper.py` to prepare modifications
   - This script requires [WINE](https://www.winehq.org/){:target="_blank"} on Mac/Linux/*nix systems
-12. Copy *the contents of* the HiyaCFW `for 2GB (or lower) SD card (SDNAND)` folder to the root of your <2GB SD card
+12. Copy *the contents of* the HiyaCFW `for SDNAND SD card` folder to the root of your <2GB SD card
   - If asked to replace any files, do so
 1. Open the new `Modified Files` folder
 2. Copy `bootloader.nds` to the `hiya` folder on your <2GB SD card
