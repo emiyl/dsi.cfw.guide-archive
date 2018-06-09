@@ -44,7 +44,6 @@ layout: default
         {% endif %}
 		<div class="notice" id="translations" style="display: none;"></div>
 		<script language="JavaScript" src="/assets/js/translations.js"></script>
-		<p class="notice">If you like the guide, please consider donating via <a href="/donate">PayPal</a>.</p>
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
