@@ -7,7 +7,7 @@ sidebar:
 
 We will now install DSiMenu++ to the System Menu by copying it to your SD card.
 
-SDSiMenu++ is a homebrew application that can launch homebrew and retail ROMs, and has several emulators built in.
+DSiMenu++ is a homebrew application that can launch homebrew and retail ROMs, and has several emulators built in.
 
 ## Downloads
 
@@ -20,10 +20,9 @@ SDSiMenu++ is a homebrew application that can launch homebrew and retail ROMs, a
 3. Copy the `_nds` and `roms` folders from the DSiMenu++ `.7z` file to the root of your SD card
 4. Unplug your SD card, and insert it in your DSi
 5. Power on your system
-6. "Unwrap" the new gift box by tapping on it
-    - DSiMenu++ should appear
+    - DSiMenu++ should now be a DSiWare on your system
 
-SRLoader should now be on your System Menu, as any other DSiWare would be. With SRLoader, you can run homebrew and retail ROMs, and use the several emulators which are built into the software.
+DSiMenu++ should now be on your System Menu, as any other DSiWare would be. With DSiMenu++, you can run homebrew and retail ROMs, and use the several emulators which are built into the software.
 
 ## Usage
 

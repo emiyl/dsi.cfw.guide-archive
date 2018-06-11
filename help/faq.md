@@ -23,4 +23,4 @@ No, you will need a hardmod to install HiyaCFW. Follow Gadorach's [hardmodding g
 
 ## Can I use an SD card higher than 2GB with HiyaCFW yet?
 
-Yes, using SRLoader. See the [Replacing System Menu with SRLoader](/more/replacing-system-menu/) page for more information.
+Yes, using DSiMenu++. See the [Replacing System Menu with DSiMenu++](/more/replacing-system-menu/) page for more information.
