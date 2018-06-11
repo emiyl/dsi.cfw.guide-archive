@@ -41,4 +41,4 @@ DSiMenu++ should now be on your System Menu, as any other DSiWare would be. With
   - Press **START**, then navigate to **Start GBARunner2** to run GBA ROMs
   - Press **X** in the DSi/3DS theme's START menu, to return to the DSi Menu
 4. (optional) You can have DSiMenu++ as a DSi Menu replacement
-  - [Replacing System Menu](/more/replacing-system-menu.md)
+  - [Replacing System Menu](/more/replacing-system-menu)
