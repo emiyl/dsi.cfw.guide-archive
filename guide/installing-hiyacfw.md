@@ -17,8 +17,8 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 - Launching blocked flashcards on later versions
 
 ## Requirements
-- An SD card that is 2GB or smaller, or a larger SD card that is partitioned to be 2GB or smaller
-  - If you don't have a 2GB or smaller SD card, follow [Replacing the System Menu with DSiMenu++](/more/replacing-system-menu) once you are finished with this page
+- **[OPTIONAL, BUT RECOMMENDED]** An SD card that is 2GB or smaller, or a larger SD card that is partitioned to be 2GB or smaller
+  - If you cannot fulfill this requirement, or do not wish to, follow [Replacing the System Menu with DSiMenu++](/more/replacing-system-menu) once you are finished with this page
 - The latest release of [twlnf](https://github.com/Jimmy-Z/twlnf/releases){:target="_blank"}
 - The latest release of [HiyaCFW](https://github.com/Robz8/hiyaCFW/releases){:target="_blank"}
 - [NUSDownloader](/assets/files/NUSDownloader.zip)
