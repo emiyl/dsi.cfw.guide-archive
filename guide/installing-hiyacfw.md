@@ -17,8 +17,6 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 - Launching blocked flashcards on later versions
 
 ## Requirements
-- 
-  - You should already have this from previous section
 - An SD card that is 2GB or smaller, or a larger SD card that is partitioned to be 2GB or smaller
   - If you don't have a 2GB or smaller SD card, follow [Replacing the System Menu with DSiMenu++](/more/replacing-system-menu) once you are finished with this page
 - The latest release of [twlnf](https://github.com/Jimmy-Z/twlnf/releases){:target="_blank"}
@@ -32,14 +30,11 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
   - [.py for Others (requires Python 3.6)](/assets/files/hiyacfw_helper.py)
 
 ## Preparation
-1. Insert your <2GB SD card into your PC
+1. Insert your SDNAND SD card into your PC
 2. Copy *the contents of* the NUSDownloader `.zip` file to a folder on your PC
 3. Copy *the contents of* the HiyaCFW `.7z` file to a folder on your PC
 4. Copy the HiyaCFW Helper file to the `for PC` folder in your HiyaCFW folder
-5. Copy *the contents of* the twlnf `.7z` file to the root of your <2GB SD card, and rename `twlnf.nds` to `bootcode.dsi`
-6. Copy `console_id.txt` from the root of your normal SD card to the root of your <2GB SD card
-  - Of course, this only applies if your <2GB SD card is not your normal one
-7. Copy `nand.bin` and `nand.bin.sha` from the root of your normal SD card to the root of your <2GB SD card
+5. Copy *the contents of* the twlnf `.7z` file to the root of your SD card, and rename `twlnf.nds` to `bootcode.dsi`
 8. Open NUSDownloader on your computer
   - This can be done through [Mono](http://www.mono-project.com/) on Mac/Linux/*nix systems
 9. Check the "Create Decrypted Contents (*.app)" box, and uncheck the "Keep Enc. Contents" box
@@ -50,7 +45,7 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 14. Copy your valid NAND backup (`nand.bin`) to the HiyaCFW `for PC` folder
 
 ## Instructions
-1. Insert your <2GB SD card into your system
+1. Insert your SD card into your system
 2. Power on your DSi
   - twlnf will appear
 3. Press **X** to mount the system NAND directly
@@ -62,19 +57,19 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 6. Once finished, press **Select** to quit twlnf
 7. Press **A** to confirm
   - Your console will power off
-8. Insert your <2GB SD card into your PC
+8. Insert your SD card into your PC
 9. Move all files from the `dump` directory to the root of the SD card
   - This prepares the "SD NAND",  which HiyaCFW will boot from
 10. Navigate to the HiyaCFW `for PC` folder
 11. Run `hiyacfw_helper.exe` to prepare modifications
   - Non-Windows systems can use the `.py` file, which will require [Python 3](https://www.python.org/downloads/){:target="_blank"} and [WINE](https://www.winehq.org/){:target="_blank"}
-12. Copy *the contents of* the HiyaCFW `for SDNAND SD card` folder to the root of your <2GB SD card
+12. Copy *the contents of* the HiyaCFW `for SDNAND SD card` folder to the root of your SD card
   - If asked to replace any files, do so
 1. Open the new `Modified Files` folder
-2. Copy `bootloader.nds` to the `hiya` folder on your <2GB SD card
-3. Copy 00000002.app to **title > 00030017 > 484e41XX > content** folder on your <2GB SD card
+2. Copy `bootloader.nds` to the `hiya` folder on your SD card
+3. Copy 00000002.app to **title > 00030017 > 484e41XX > content** folder on your SD card
   - XX denotes your region: 45 for USA, 50 for EUR, 4A for JAP, 55 for AUS
-4. Unplug your <2GB SD card, and insert it in your DSi
+4. Unplug your SD card, and insert it in your DSi
 5. Power on your console
   - HiyaCFW's splash screen should appear
 
