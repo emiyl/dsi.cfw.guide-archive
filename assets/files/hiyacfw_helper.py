@@ -79,6 +79,8 @@ try:
                 launcher_region = region
         if launcher_region == "":
             raise Exception('Launcher is not v512 of AUS, USA, EUR or JAP. Is your launcher the right version and decrypted?')
+        else:
+            print(launcher_region.upper() + " launcher found")
 except Exception as e:
     print('Self-check failed! {}'.format(e))
     input('Press Enter to continue...')  
@@ -134,11 +136,29 @@ else:
     subprocess.call(["wine", "twltool", "modcrypt", "--in", "00000002.app"])
 
 print('\nIPS patching launcher')
+if launcher_region == "jap": print("JAP launcher detected- applying JAP-KOR patch")
 patch = "v1.4 Launcher (00000002.app) (JAP-KOR) patch.ips" if launcher_region == "jap" else "v1.4 Launcher (00000002.app) patch.ips"
 
 
 apply(patch, "00000002.app")
 
+print('\nVerifying launcher output')
+with open('00000002.app', 'rb') as launcher:
+    expected_sha1s = { 'usa': 'd21d569184b6ed8b21ad5882ce7df2b7517ae34d', 'jap': '801a1eaaa0ffe70a188dbbe40f690d6728e223ca', 'eur': '8d186544c93afd903406bde1512c6b8e35d4ff61', 'aus': '88c556b1bd7b01ce5b08ed727fcdf7b19200562a'}
+    sha1 = hashlib.sha1()
+    sha1.update(launcher.read())
+    if expected_sha1s[launcher_region] != sha1.hexdigest():
+        print("Error: Launcher TMD end-result doesn't match! Please join the Discord server and copy-paste the output of this command prompt for investigative purposes.")
+        input('Press Enter to continue...')       
+        sys.exit()
+
+print("Verifying bootloader") 
+with open('bootloader.nds', 'rb') as bootloader:
+    expected_sha1 = "b654e62a044282bf60860566bec1be254b2336ae"
+    sha1 = hashlib.sha1()
+    sha1.update(bootloader.read())
+    if expected_sha1 != sha1.hexdigest():
+        print("Bootloader.nds SHA1 does not match expected output. This may not be an error. Please join the Discord server and report whether or not HiyaCFW works on your system.\nContinuing.")
 print('\nMoving new files')
 if not os.path.isdir('Modified Files'):
     os.mkdir('Modified Files')

@@ -72,7 +72,7 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 4. Unplug your SD card, and insert it in your DSi
 5. Power on your console
   - HiyaCFW's splash screen should appear
-
+  - If it does not, it's most likely because your SD card is larger than 4GB; follow [Replacing the System Menu with DSiMenu++](/more/replacing-system-menu) as noted at the top of the page
 Your system should now boot from the SD card instead of the internal NAND.
 
 [Finalizing Setup](/guide/finalizing-setup){: .btn .btn--light-outline}
