@@ -18,9 +18,9 @@ In this configuration, DSiMenu++ is effectively acting as an open source alterna
 
 ## Requirements
 - The latest release of [DSiMenu++](https://github.com/Robz8/DSiMenuPlusPlus/releases){:target="_blank"}
-- argvgen
-  - [.EXE for Windows](/assets/files/argvgen.exe)
-  - [.py for Others (requires Python 3)](/assets/files/argvgen.py)
+- [argvgen](/assets/files/argvgen.zip)
+  - Windows users may use the .EXE
+  - Users of other operating systems may use the .py (requires [Python 2 or 3](https://www.python.org/downloads/){:target="_blank"})
 
 ## Preparation
 If you already have DSiMenu++ installed, skip to step 5

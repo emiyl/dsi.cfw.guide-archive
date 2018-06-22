@@ -1,12 +1,17 @@
-ALL FILES IN THIS DIRECTORY ARE NOT HELD BY THE MIT LICENSE THAT THE SITE IS HELD BY.
+Many files in this directory are not covered by the MIT license that the rest of the guide is. This is due to some of the files not being our own.
+Files are here because they are either not distributed in binary form and have been compiled separately, have been repacked to make installation easier, or are written by us to make things more comprehensible for the end-user.
 
+argvgen.zip - Written by us. MIT licensed.
 
-INSTEAD, THESE FILES ARE HELD BY THEIR OWN SEPERATE LICENSES.
+dsi_srl_extract.zip - No binary release on GitHub. Upstream source at (https://github.com/einstein95/dsi_srl_extract)
+console_id.py and console_id.exe in the dsi_srl_extract.zip are written by us and is MIT licensed.
 
+fwTool_1.6.zip - No binary release on GitHub. It appears that this particular release of fwTool is a fork of the original by WinterMute.
+The TempNAND guide needs updating anyways (hell it's unlisted even), and I will clean this up at a later date.
 
-DOWNLOAD RESPONSIBLY.
+hiyacfw_helper.zip - Written by us. MIT licensed.
 
+NUSDownloader - Upstream source at (https://code.google.com/archive/p/nusdownloader/). Binary releases are available, but they are outdated. This is a compiled release of the latest available source.
 
-Thanks.
-
-
+ugopwn.zip - Repacked ugopwn, to make installation a drag-and-drop process.
+Ugopwn is by shutterbug2000. Original thread and non-repacked copy available at https://gbatemp.net/threads/release-ugopwn.488702/

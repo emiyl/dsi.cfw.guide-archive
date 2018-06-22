@@ -25,9 +25,9 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 - A NAND backup taken from your device, with the NO$GBA Footer
   - twlnf will create this footer automatically when it makes a backup
   - You should already have this backup from the previous section
-- HiyaCFW Helper
-  - [.EXE for Windows](/assets/files/hiyacfw_helper.exe)
-  - [.py for Others (requires Python 3.6)](/assets/files/hiyacfw_helper.py)
+- [HiyaCFW Helper](/assets/files/hiyacfw_helper.zip)
+  - Windows users may use the .EXE
+  - Users of other operating systems may use the .py (requires [Python 3](https://www.python.org/downloads/){:target="_blank"} and [WINE](https://www.winehq.org/){:target="_blank"})
 
 ## Preparation
 1. Insert your SDNAND SD card into your PC
