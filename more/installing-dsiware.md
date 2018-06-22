@@ -27,9 +27,10 @@ Now that we have a DSiWare to install, we can use HiyaCFW to install it to our s
 5. Drag and drop the `.app` file onto the maketmd program
     - You will see a new file named `title.tmd` be created
 6. Copy the DSiWare folder to the `/title/00030004` folder on your DSi's SD card
-7. Power on your DSi, and "unwrap" the new DSiWare
+    - If your System Menu has been replaced with DSiMenu++, you will need to rerun the argv generator and place the new argv files in `_nds/dsimenuplusplus/dsiware` once more
+1. Power on your DSi, and "unwrap" the new DSiWare
     - If you boot to an "error has occured" screen, you have exceeded the amount of allowed DSiWare blocks on your system
-    - SRLoader can get around this limitation, see the link below for more information
+    - DSiMenu++ can get around this limitation, see the link below for more information
 
-[Replacing the System Menu with SRLoader](/more/replacing-system-menu){: .btn .btn--light-outline}
+[Replacing the System Menu with DSiMenu++](/more/replacing-system-menu){: .btn .btn--light-outline}
 {: style="text-align: center;"}
