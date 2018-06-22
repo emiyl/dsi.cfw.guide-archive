@@ -3,12 +3,62 @@ import os
 import sys
 import subprocess
 
+# use apply ips function for https://github.com/meunierd/python-ips
+
+import shutil
+import struct
+
+from os.path import getsize
+
+
+def unpack_int(string):
+    """Read an n-byte big-endian integer from a byte string."""
+    (ret,) = struct.unpack_from('>I', b'\x00' * (4 - len(string)) + string)
+    return ret
+
+def apply(patchpath, filepath):
+    patch_size = getsize(patchpath)
+    patchfile = open(patchpath, 'rb')
+    target = open(filepath, 'r+b')
+
+    if patchfile.read(5) != b'PATCH':
+        raise Exception('Invalid patch header.')
+
+    # Read First Record
+    r = patchfile.read(3)
+    while patchfile.tell() not in [patch_size, patch_size - 3]:
+        # Unpack 3-byte pointers.
+        offset = unpack_int(r)
+        # Read size of data chunk
+        r = patchfile.read(2)
+        size = unpack_int(r)
+
+        if size == 0:  # RLE Record
+            r = patchfile.read(2)
+            rle_size = unpack_int(r)
+            data = patchfile.read(1) * rle_size
+        else:
+            data = patchfile.read(size)
+
+        # Write to file
+        target.seek(offset)
+        target.write(data)
+        # Read Next Record
+        r = patchfile.read(3)
+
+    if patch_size - 3 == patchfile.tell():
+        trim_size = unpack_int(patchfile.read(3))
+        target.truncate(trim_size)
+
+    # Cleanup
+    target.close()
+    patchfile.close()
+
 launcher_region = ""
 
 print('---HIYACFW HELPER---')
-print('This is an updated version for Au, USA, EUR, Jap DSI. Edited by LmN')
 print('Running self-check')
-dependencies = ['nand.bin', 'flips.exe', "00000002.app"]
+dependencies = ['nand.bin', "00000002.app"]
 try:
     if os.name == 'nt':
         char = "\\"
@@ -56,13 +106,8 @@ else:
     subprocess.call(["wine", "twltool", "boot2", "--in", "nand.bin"])
 
 print('\nIPS patching ARM7/ARM9 BIOS')
-if os.name == 'nt':
-    subprocess.call(["flips", "--apply", "bootloader files/bootloader arm7 patch.ips", "arm7.bin"])
-    subprocess.call(["flips", "--apply", "bootloader files/bootloader arm9 patch.ips", "arm9.bin"])
-else: 
-    subprocess.call(["wine", "flips", "--apply", "bootloader files/bootloader arm7 patch.ips", "arm7.bin"])
-    subprocess.call(["wine", "flips", "--apply", "bootloader files/bootloader arm9 patch.ips", "arm9.bin"])
-
+apply("bootloader files/bootloader arm7 patch.ips", "arm7.bin")
+apply("bootloader files/bootloader arm9 patch.ips", "arm9.bin")
 print('\nPrepending data to ARM9 BIOS')
 
 try:
@@ -91,10 +136,8 @@ else:
 print('\nIPS patching launcher')
 patch = "v1.4 Launcher (00000002.app) (JAP-KOR) patch.ips" if launcher_region == "jap" else "v1.4 Launcher (00000002.app) patch.ips"
 
-if os.name == 'nt':
-    subprocess.call(["flips", "--apply", patch, "00000002.app"])
-else:
-    subprocess.call(["wine", "flips", "--apply", patch, "00000002.app"])
+
+apply(patch, "00000002.app")
 
 print('\nMoving new files')
 if not os.path.isdir('Modified Files'):

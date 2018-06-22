@@ -27,13 +27,13 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 - A NAND backup taken from your device, with the NO$GBA Footer
   - twlnf will create this footer automatically when it makes a backup
   - You should already have this backup from the previous section
-- [Helper scripts for HiyaCFW installation](/assets/files/hiyacfw_helper.zip)
+- [HiyaCFW Helper](/assets/files/hiyacfw_helper.py)
 
 ## Preparation
 1. Insert your <2GB SD card into your PC
 2. Copy *the contents of* the NUSDownloader `.zip` file to a folder on your PC
 3. Copy *the contents of* the HiyaCFW `.7z` file to a folder on your PC
-4. Copy *the contents of* the HiyaCFW helper `.7z` to the `for PC` folder in your HiyaCFW folder
+4. Copy the HiyaCFW Helper `.py` file to the `for PC` folder in your HiyaCFW folder
 5. Copy *the contents of* the twlnf `.7z` file to the root of your <2GB SD card, and rename `twlnf.nds` to `bootcode.dsi`
 6. Copy `console_id.txt` from the root of your normal SD card to the root of your <2GB SD card
   - Of course, this only applies if your <2GB SD card is not your normal one
