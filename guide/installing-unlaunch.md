@@ -19,7 +19,6 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/){:target="_blank"}
 - The latest release of [ugopwn](/assets/files/ugopwn.zip)
 - The latest release of [twlnf](https://github.com/Jimmy-Z/twlnf/releases){:target="_blank"}
-- The latest release of [Python 3](https://www.python.org/downloads/){:target="_blank"}
 - The latest release of [DSi SRL Extractor](/assets/files/dsi_srl_extract.zip)
 
 ## Preparing your SD card
@@ -36,8 +35,8 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 9. Open the SD card drive on your computer
 10. Navigate to /Private/DS/Title/
 11. Copy the `.bin` file to your DSi SRL Extractor folder
-12. Run the console_id `.py` file inside the folder
-  - This script requires [WINE](https://www.winehq.org/){:target="_blank"} on Mac/Linux/*nix systems
+12. Run the console_id `.exe` file inside the folder
+  - Non-Windows systems can use the `.py` file, which will require [Python 3](https://www.python.org/downloads/){:target="_blank"} and [WINE](https://www.winehq.org/){:target="_blank"}
 13. When prompted, press Enter
 14. Copy the new console_id `.txt` file to the root of your SD card
 15. Eject your SD card and insert it back into your DSi

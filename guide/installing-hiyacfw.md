@@ -17,7 +17,7 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 - Launching blocked flashcards on later versions
 
 ## Requirements
-- The latest release of [Python 3](https://www.python.org/downloads/){:target="_blank"}
+- 
   - You should already have this from previous section
 - An SD card that is 2GB or smaller, or a larger SD card that is partitioned to be 2GB or smaller
   - If you don't have a 2GB or smaller SD card, follow [Replacing the System Menu with DSiMenu++](/more/replacing-system-menu) once you are finished with this page
@@ -27,13 +27,15 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 - A NAND backup taken from your device, with the NO$GBA Footer
   - twlnf will create this footer automatically when it makes a backup
   - You should already have this backup from the previous section
-- [HiyaCFW Helper](/assets/files/hiyacfw_helper.py)
+- HiyaCFW Helper
+  - [.EXE for Windows](/assets/files/hiyacfw_helper.exe)
+  - [.py for Others (requires Python 3.6)](/assets/files/hiyacfw_helper.py)
 
 ## Preparation
 1. Insert your <2GB SD card into your PC
 2. Copy *the contents of* the NUSDownloader `.zip` file to a folder on your PC
 3. Copy *the contents of* the HiyaCFW `.7z` file to a folder on your PC
-4. Copy the HiyaCFW Helper `.py` file to the `for PC` folder in your HiyaCFW folder
+4. Copy the HiyaCFW Helper file to the `for PC` folder in your HiyaCFW folder
 5. Copy *the contents of* the twlnf `.7z` file to the root of your <2GB SD card, and rename `twlnf.nds` to `bootcode.dsi`
 6. Copy `console_id.txt` from the root of your normal SD card to the root of your <2GB SD card
   - Of course, this only applies if your <2GB SD card is not your normal one
@@ -64,8 +66,8 @@ HiyaCFW is a custom firmware for the Nintendo DSi that, once installed, will all
 9. Move all files from the `dump` directory to the root of the SD card
   - This prepares the "SD NAND",  which HiyaCFW will boot from
 10. Navigate to the HiyaCFW `for PC` folder
-11. Run `hiyacfw_helper.py` to prepare modifications
-  - This script requires [WINE](https://www.winehq.org/){:target="_blank"} on Mac/Linux/*nix systems
+11. Run `hiyacfw_helper.exe` to prepare modifications
+  - Non-Windows systems can use the `.py` file, which will require [Python 3](https://www.python.org/downloads/){:target="_blank"} and [WINE](https://www.winehq.org/){:target="_blank"}
 12. Copy *the contents of* the HiyaCFW `for SDNAND SD card` folder to the root of your <2GB SD card
   - If asked to replace any files, do so
 1. Open the new `Modified Files` folder

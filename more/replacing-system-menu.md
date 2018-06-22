@@ -18,8 +18,9 @@ In this configuration, DSiMenu++ is effectively acting as an open source alterna
 
 ## Requirements
 - The latest release of [DSiMenu++](https://github.com/Robz8/DSiMenuPlusPlus/releases){:target="_blank"}
-- The latest release of [Python 3](https://www.python.org/downloads/){:target="_blank"}
-- [argvgen.py](/assets/files/argvgen.py)
+- argvgen
+  - [.EXE for Windows](/assets/files/argvgen.exe)
+  - [.py for Others (requires Python 3)](/assets/files/argvgen.py)
 
 ## Preparation
 If you already have DSiMenu++ installed, skip to step 5
@@ -34,8 +35,8 @@ If you already have DSiMenu++ installed, skip to step 5
     - On Windows, this can be done by right clicking them, going to Properties, then checking "Read-only"
     - This works around a bug that can break the SDNAND
 8. Navigate to `title/00030004` on your SD card
-9. Copy `argvgen.py` to `title/00030004` on your SD card
-10. Run `argvgen.py`
+9. Copy `argvgen.exe` or `argvgen.py` to `title/00030004` on your SD card
+10. Run `argvgen`
     - A new `dsiware` folder will be created
     - These contain `.argv` files, which tell DSiMenu++ where it can find DSiWare
 11. Move the `dsiware` folder to `_nds/dsimenuplusplus/dsiware` on your SD card
