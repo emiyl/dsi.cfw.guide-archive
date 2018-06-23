@@ -50,7 +50,7 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
 10. Copy `00000002.app` from the `512` folder to the HiyaCFW `for PC` folder
 11. Copy your valid NAND backup (`nand.bin`) from the `FWXXXXXXXXXXXX` folder on your SD card to the HiyaCFW `for PC` folder
   - `XXXXXXXXXXXX` denotes random, console-specific characters
-1. In the HiyaCFW `for PC` folder, run `hiyacfw_helper.exe` to prepare modifications
+12. In the HiyaCFW `for PC` folder, run `hiyacfw_helper.exe` to prepare modifications
   - Non-Windows systems can use the `.py` file, which will require [Python 3](https://www.python.org/downloads/){:target="_blank"} and [WINE](https://www.winehq.org/){:target="_blank"}
 
 ## SDNAND Creation
