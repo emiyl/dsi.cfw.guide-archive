@@ -3,9 +3,6 @@ Files are here because they are either not distributed in binary form and have b
 
 argvgen.zip - Written by us. MIT licensed.
 
-dsi_srl_extract.zip - No binary release on GitHub. Upstream source at (https://github.com/einstein95/dsi_srl_extract)
-console_id.py and console_id.exe in the dsi_srl_extract.zip are written by us and is MIT licensed.
-
 fwTool.nds - No binary release on GitHub. This particular release of fwTool doesn't yet appear to have source code released for it, either.
 
 hiyacfw_helper.zip - Written by us. MIT licensed.
