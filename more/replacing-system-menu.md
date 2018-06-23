@@ -27,7 +27,7 @@ If you already have DSiMenu++ installed, skip to step 5
 {: .notice--info}
 1. Open the DSiMenuPlusPlus `.7z` file
 2. Copy *the contents of* the `CFW - SDNAND root` folder to the root of your SD card
-3. Copy the `_nds` and `roms` folders to the root of your SD card
+3. Copy the `_nds` and `roms` folders, and `BOOT.NDS` to the root of your SD card
 4. Copy *the contents of* the `DSiWare (your region)` folder to `_nds/dsimenuplusplus/dsiware` on your SD card
 5. In the `Autoboot for HiyaCFW` folder in the DSiMenuPlusPlus `.7z`, copy `autoboot.bin` to the `hiya` folder on your SD card
 6. Navigate to the `shared1` folder on your SD card

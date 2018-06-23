@@ -15,14 +15,14 @@ DSiMenu++ is a homebrew application that can launch homebrew and retail ROMs, an
 
 ## Instructions
 
-1. Insert your SD NAND (<2GB) SD card into your PC
+1. Insert your SDNAND SD card into your PC
 2. Copy *the contents of* `CFW - SDNAND root` from the DSiMenu++ `.7z` file to the root of your SD NAND (<2GB) SD card
 3. Copy the `_nds` and `roms` folders from the DSiMenu++ `.7z` file to the root of your SD card
 4. Unplug your SD card, and insert it in your DSi
 5. Power on your system
     - DSiMenu++ should now be a DSiWare on your system
 
-DSiMenu++ should now be on your System Menu, as any other DSiWare would be. With DSiMenu++, you can run homebrew and retail ROMs, and use the several emulators which are built into the software.
+DSiMenu++ should now be on your System Menu, as any other DSiWare would be.
 
 ## Usage
 
@@ -40,5 +40,5 @@ DSiMenu++ should now be on your System Menu, as any other DSiWare would be. With
   - Press **UP** or **DOWN** to toggle between NDS ROMs and DSiWare
   - Press **START**, then navigate to **Start GBARunner2** to run GBA ROMs
   - Press **X** in the DSi/3DS theme's START menu, to return to the DSi Menu
-4. (optional) You can have DSiMenu++ as a DSi Menu replacement
+4. (optional) DSiMenu++ can completely replace your System Menu. This can help work around several bugs with SD card sizes and the DSiWare block limit.
   - [Replacing System Menu](/more/replacing-system-menu)

@@ -6,8 +6,7 @@ argvgen.zip - Written by us. MIT licensed.
 dsi_srl_extract.zip - No binary release on GitHub. Upstream source at (https://github.com/einstein95/dsi_srl_extract)
 console_id.py and console_id.exe in the dsi_srl_extract.zip are written by us and is MIT licensed.
 
-fwTool_1.6.zip - No binary release on GitHub. It appears that this particular release of fwTool is a fork of the original by WinterMute.
-The TempNAND guide needs updating anyways (hell it's unlisted even), and I will clean this up at a later date.
+fwTool.nds - No binary release on GitHub. This particular release of fwTool doesn't yet appear to have source code released for it, either.
 
 hiyacfw_helper.zip - Written by us. MIT licensed.
 

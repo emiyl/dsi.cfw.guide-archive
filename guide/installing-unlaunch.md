@@ -15,79 +15,66 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
 
 ## Downloads
 - The latest release of [Unlaunch](https://problemkaputt.de/unlau08.zip)
-	- We are currently using Unlaunch v0.8, as 0.9 has bugs preventing HiyaCFW from working
+	- We are currently using Unlaunch v0.8, as 0.9 is incompatible with HiyaCFW
 - The latest release of [HBMenu](https://github.com/devkitPro/nds-hb-menu/releases/){:target="_blank"}
 - The latest release of [ugopwn](/assets/files/ugopwn.zip)
-- The latest release of [twlnf](https://github.com/Jimmy-Z/twlnf/releases){:target="_blank"}
-- The latest release of [DSi SRL Extractor](/assets/files/dsi_srl_extract.zip)
+- The latest release of [fwTool](/assets/files/fwTool.nds)
 
 ## Preparing your SD card
 
-1. Install Python 3 on your computer
-2. Open the System Settings application
-3. Select **Data Management > System Memory > Flipnote Studio > Copy > Yes**
-	- If Data Management isn't appearing, open the DSi Shop, close it, and then try again
-4. Once finished, power off your device
-5. Take your SD card out of your console and insert it into your computer
-6. Copy the contents of the ugopwn `.zip` file to the root of your SD card
-7. Copy the contents of the twlnf `.7z` file to the root of your SD card, and rename `twlnf.nds` to `boot.nds`
-8. Copy the contents of the DSi SRL Extractor `.zip` file to a folder on your Desktop
-9. Open the SD card drive on your computer
-10. Navigate to /Private/DS/Title/
-11. Copy the `.bin` file to your DSi SRL Extractor folder
-12. Run the console_id `.exe` file inside the folder
-  - Non-Windows systems can use the `.py` file, which will require [Python 3](https://www.python.org/downloads/){:target="_blank"} and [WINE](https://www.winehq.org/){:target="_blank"}
-13. When prompted, press Enter
-14. Copy the new console_id `.txt` file to the root of your SD card
-15. Eject your SD card and insert it back into your DSi
+1. Insert your system's SD card into your PC
+2. Copy the contents of the ugopwn `.zip` file to the root of your SD card
+3. Copy the fwTool `.nds` file to the root of your SD card, and rename `fwTool.nds` to `boot.nds`
+4. Eject your SD card, and insert it back into your DSi
 
 ## Creating a NAND backup
 
 1. Open the Flipnote Studio application
   - Ensure that the *booting to Calendar mode* is disabled in Flipnote Studio's settings
-  - If you already have another DSiWare exploit installed, open that and skip to Step 14
-2. Select **View Flipnote > SD Card > Select Folder > User > ugopwn**
-3. Click on the note with the red bottom half
-4. Select "Edit"
-5. Click on the Flipnote frog icon in the bottom left
-6. Click on the film roll icon
-7. Select **Copy > Back > Quit**
-8. Click the second note, and select "Edit"
-9. Click on the Flipnote frog icon in the bottom left
-10. Click on the film roll icon.
-11. **USA/EUR/AUS:** Click on the single right arrow (the next to last arrow icon) two times
+  - If you already have another DSiWare exploit installed, open that and skip to Step 13
+  - Note that Sudokuhax *cannot* adequately make a backup with the required footer!
+1. Select **View Flipnote > SD Card > Select Folder > User > ugopwn**
+2. Click on the note with the red bottom half
+3. Select "Edit"
+4. Click on the Flipnote frog icon in the bottom left
+5. Click on the film roll icon
+6. Select **Copy > Back > Quit**
+7. Click the second note, and select "Edit"
+8. Click on the Flipnote frog icon in the bottom left
+9. Click on the film roll icon.
+10. **USA/EUR/AUS:** Click on the single right arrow (the next to last arrow icon) two times
   - You will see a new frame be created
-12. Based on your region, do the following:
+11. Based on your region, do the following:
   - **USA:** Click on the paste button exactly 122 times.
   - **EUR/AUS:** Click on the paste button exactly 2 times.
-  - **JPN:** Click on the paste button. This should launch twlnf
-13. **USA/EUR/AUS:** Select "Erase" and then "Paste"
-  - This should launch twlnf
-14. When prompted, press **A** to create a nand backup
+  - **JPN:** Click on the paste button. This should launch fwTool
+12. **USA/EUR/AUS:** Select "Erase" and then "Paste"
+  - This will launch fwTool
+13. Navigate to `Backup DSi NAND`, and press **A**
   - This will take a few minutes
   - Store this NAND backup in a safe location, it is a critical backup and we will need it later to install HiyaCFW
-15. Press **B** to quit twlnf
+  - When `saved nand.bin.sha1.` appears, the backup is finished
+14. Navigate to `Exit`, and press **A**
   - Your console will power off
 
 ## Installation
 
 1. Insert your system's SD card into your computer
 2. Copy `BOOT.NDS` from the `hbmenu` folder in the HBMenu `.tar.bz2` file to the root of your SD card
-  - twlnf is currently your `boot.nds`; for now, rename it to `boot.bak` or `twlnf.nds`
+  - fwTool is currently your `boot.nds`; for now, rename it to `boot.bak` or `fwTool.nds`
 3. Copy `UNLAUNCH.DSI` from the Unlaunch `.zip` file to the root of your SD card
 4. Rename `UNLAUNCH.DSI` to `unlaunch.nds`
 5. Unplug your SD card, and insert it in your DSi
-6. Power on your DSi, and repeat steps 1 through 13 in **Creating a NAND backup**
-  - HBMenu should appear
+6. Power on your DSi, and repeat steps 1 through 12 in **Creating a NAND backup**
+  - HBMenu will appear
 7. Navigate to `unlaunch.nds`, and press **A**
-  - Unlaunch's installer should appear
+  - Unlaunch's installer will appear
 8. Navigate to `INSTALL NOW` and press **A**
-  - If Unlaunch freezes at `LOADING FAT`, please read our [FAQ](/help/faq)
+  - If Unlaunch freezes at `ERROR: MISMATCH IN FAT COPIES`, please read our [FAQ](/help/faq)
 9. When done, navigate to `POWER DOWN` and press **A**
   - Your system will power off
 10. Turn your system on, to verify Unlaunch installed properly
   - You should briefly see the Unlaunch screen, and boot into a version of the DSi Menu with no sound
-  - If you're stuck on black screens or the Unlaunch screen, hold **A** while powering on your system
 
 With Unlaunch installed, your system now has primitive brick protection, unless the launcher's TMD file is destroyed. Unlaunch has protections that should prevent this from happening, and HiyaCFW uses your SD card as the DSi's NAND, adding a very resilient layer of brick protection.
 
