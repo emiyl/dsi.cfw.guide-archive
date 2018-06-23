@@ -8,14 +8,12 @@ sidebar:
 Please read the FAQ before asking for help on [Discord](/help/discord).
 {: .notice--info}
 
-## Unlaunch freezes at "LOADING FAT"
+## Unlaunch freezes at "MISMATCH IN FAT COPIES"
 
 - Delete any DSiWare installed via twlnf in the past
   - Make sure you have another homebrew entrypoint available
-- If you have not installed any DSiWare via twlnf, or the above method doesn't work, try installing [Unlaunch via TempNAND](/more/installing-unlaunch-(tempnand))
-  - Reflashing the NAND can cause severe degredation
-  - This method should only be used as a last resort
-- If neither methods work, please ask on [Discord](/help/discord)
+  - This includes updating if twlnf has been used to downgrade your system
+- If this does not work, don't hesitate to ask the [Discord](/help/discord) for more help
 
 ## Can I install HiyaCFW without Flipnote Studio?
 
