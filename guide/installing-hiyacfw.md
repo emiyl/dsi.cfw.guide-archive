@@ -21,10 +21,8 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
 ## Requirements
 - **[OPTIONAL, BUT RECOMMENDED]** An SD card that is 2GB or smaller, or a larger SD card that is partitioned to be 2GB or smaller
   - If you cannot fulfill this requirement, or do not wish to, follow [Replacing the System Menu with DSiMenu++](/more/replacing-system-menu) once you are finished with this page
-- The latest *nightly* release of fuse-3ds
-  - Precompiled nightly builds are available for [32-bit](https://cdn.discordapp.com/attachments/440267909965676547/459889653923708938/fuse-3ds-1.2.dev1-win32.zip){:target="_blank"} and [64-bit](https://cdn.discordapp.com/attachments/440267909965676547/459889666129264640/fuse-3ds-1.2.dev1-win64.zip){:target="_blank"}
+- The latest release of [fuse-3ds](https://github.com/ihaveamac/fuse-3ds/releases){:target="_blank"}
   - Windows users will need to install [WinFsp](http://www.secfs.net/winfsp/download/){:target="_blank"} as well
-  - Non-Windows users will need to follow the [manual installation instructions](https://github.com/ihaveamac/fuse-3ds/blob/master/README.md){:target="_blank"} for the time being
 - The latest release of [OSFMount](https://www.osforensics.com/tools/mount-disk-images.html){:target="_blank"}
   - This can be substituted for the `mount` utility on non-Windows systems
 - The latest release of [HiyaCFW](https://github.com/Robz8/hiyaCFW/releases){:target="_blank"}
