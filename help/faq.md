@@ -34,3 +34,23 @@ Unfortunately, not at this time.
 Ideally there would be a tool, or an update to the Unlaunch installer itself, that allows for a direct uninstallation. Currently no such tool exists. Until one exists, all methods of installing Unlaunch either require unsafe tools like twlnf, or restoring a NAND backup.
 
 Uninstalling via twlnf would trigger twlnf's NAND update bug, breaking the option to install unlaunch in the future, and NAND backups are not only dangerous but is also very stressful on the DSi's components.
+
+## fuse-3ds fails launch, or to mount my NAND backup!
+
+This can happen for several reasons, but the most common is that your PC is missing Windows Updates that are required for the program to run.
+
+If fuse-3ds shows nothing but a black command prompt screen, just wait a while longer- the program can be slow to start.
+
+If fuse-3ds shows the following error at startup:
+
+`The procedure entry point ucrtbase.terminate could not be located in the dynamic link library api-ms-win-crt-runtime-l1-1-0.dll.`
+
+You are missing the following Windows Update: https://support.microsoft.com/en-us/help/2999226/update-for-universal-c-runtime-in-windows
+
+If fuse-3ds fails to mount with the error message:
+
+`Cannot create WinFsp-FUSE file system: unspecified error.`
+
+You are missing the following Windows Update: https://technet.microsoft.com/en-us/library/security/3033929.aspx
+
+Both of these updates are several years old. If you're missing them, it is highly recommended that you enable Windows Update on your machine in order to keep your system updated and secure, and to avoid issues like this in the future.
