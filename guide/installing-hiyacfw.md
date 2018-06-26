@@ -56,7 +56,7 @@ HiyaCFW has several advantages that only having Unlaunch on your system will not
   - If fuse-3ds fails to open, check the [FAQ](/help/faq)
 2. In the `- Choose a type or drag a file/directory here -` dropdown, select `Nintendo DSi NAND backup ("nand_dsi.bin")`
 3. Drag and drop your valid NAND backup onto the file `Drag a file here or browse...` input box
-4. Create a new folder to mount the NAND backup on, and drag and drop this new folder onto the mount point `Drag a directory here or browse...` input box
+4. Create a new folder on your PC (NOT your SD card!) to mount the NAND backup on, and drag and drop this new folder onto the mount point `Drag a directory here or browse...` input box
   - Ensure that the mount type is set to **Directory** on Windows systems
 5. At the bottom of the fuse-3ds window, press **Mount**
   - The mounted folder will appear
