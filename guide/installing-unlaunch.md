@@ -57,8 +57,7 @@ Unlaunch is a DSi bootcode exploit which will allow you to install HiyaCFW, a DS
   - This will take a few minutes
   - Store this NAND backup in a safe location, it is a critical backup and we will need it later to install HiyaCFW
   - When `saved nand.bin.sha1.` appears, the backup is finished
-16. Navigate to `Exit`, and press **A**
-  - Your console will power off
+16. Navigate to `Exit`, press **A**, and power off your system
 
 ## Installation
 
