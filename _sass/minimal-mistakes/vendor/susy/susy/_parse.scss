@@ -42,9 +42,9 @@
 ///
 /// @return {map} -
 ///   Map of span and grid settings
-///   parsed from shorthand input -
-///   including all the properties available globally -
-///   `columns`, `gutters`, `spread`, `container-spread` -
+///   parsed from shorthand input –
+///   including all the properties available globally –
+///   `columns`, `gutters`, `spread`, `container-spread` –
 ///   along with the span-specific properties
 ///   `span`, and `location`.
 ///
@@ -88,7 +88,7 @@
     $error: false;
     $details: '[#{$type}] `#{$item}`';
 
-    // if we know what's supposed to be coming next...
+    // if we know what's supposed to be coming next…
     @if $next {
 
       // Add to the return map
@@ -97,15 +97,15 @@
       // Reset next to `false`
       $next: false;
 
-    } @else { // If we don't know what's supposed to be coming
+    } @else { // If we don't know what's supposed to be coming…
 
-      // Keywords
+      // Keywords…
       @if ($type == 'string') {
-        // Check the map for keywords
+        // Check the map for keywords…
         @if map-has-key($options, $item) {
           $setting: map-get($options, $item);
 
-          // Spread could be on the span or the container
+          // Spread could be on the span or the container…
           @if ($setting == 'spread') and ($of) {
             $return: map-merge($return, ('container-spread': $item));
           } @else {
@@ -116,7 +116,7 @@
           // `All` is a span shortcut
           $span: 'all';
         } @else if ($item == 'at') {
-          // Some keywords setup what's next
+          // Some keywords setup what's next…
           $next: 'location';
         } @else if ($item == 'set-gutters') {
           $next: 'gutters';
@@ -126,13 +126,13 @@
           $error: true;
         }
 
-      } @else if ($type == 'number') or ($type == 'list') { // Numbers & lists
+      } @else if ($type == 'number') or ($type == 'list') { // Numbers & lists…
 
         @if not ($span or $of) {
-          // We don't have a span, and we're not expecting context
+          // We don't have a span, and we're not expecting context…
           $span: $item;
         } @else if ($of) and (not $columns) {
-          // We are expecting context
+          // We are expecting context…
           $columns: $item;
         } @else {
           $error: true;
@@ -158,6 +158,6 @@
     $return: map-merge($return, ('columns': $columns));
   }
 
-  // Return the map of settings
+  // Return the map of settings…
   @return $return;
 }

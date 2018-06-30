@@ -48,8 +48,8 @@
 ///
 /// ### Context Syntax: `[of <columns> <container-spread> <gutters>]`
 /// The second half of Susy's shorthand
-/// describes the grid-**context** -
-/// available columns, container-spread, and optional gutter override -
+/// describes the grid-**context** –
+/// available columns, container-spread, and optional gutter override –
 /// in any order.
 /// All of these settings have globally-defined defaults:
 ///
@@ -81,7 +81,7 @@
 
 // Susy Span
 // ---------
-/// This is the primary function in Susy -
+/// This is the primary function in Susy —
 /// used to return the width of a span across one or more columns,
 /// and any relevant gutters along the way.
 /// With the default settings,
@@ -158,7 +158,7 @@
 // -----------
 /// The gutter function returns
 /// the width of a single gutter on your grid,
-/// to be applied where you see fit -
+/// to be applied where you see fit –
 /// on `margins`, `padding`, `transform`, or element `width`.
 ///
 /// - This is a thin syntax-sugar shell around
@@ -210,7 +210,7 @@
 // Susy Slice
 // ----------
 /// Working with asymmetrical grids (un-equal column widths)
-/// can be challenging -
+/// can be challenging – 
 /// expecially when they involve fluid/fractional elements.
 /// Describing a context `of (15em 6em 6em 6em 15em)` is a lot
 /// to put inside the span or gutter function shorthand.
@@ -288,7 +288,7 @@
 /// @example scss - flexbox
 ///   .flexbox {
 ///     flex: 1 1 span(3);
-///     // half a gutter on either side...
+///     // half a gutter on either side…
 ///     padding: 0 gutter() / 2;
 ///   }
 ///

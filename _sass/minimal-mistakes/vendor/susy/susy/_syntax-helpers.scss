@@ -5,7 +5,7 @@
 /// and the Su core math.
 /// That entire process can be condensed with these two functions.
 /// For anyone that wants to access the full power of Susy,
-/// and build their own plugins, functions, or mixins -
+/// and build their own plugins, functions, or mixins –
 /// this is the primary API for compiling user input,
 /// and accessing the core math.
 ///
@@ -59,7 +59,7 @@
 /// with syntax-parsing for the grid/span shorthand,
 /// and normalization for each of the resulting values.
 /// The compile function rolls this all together
-/// in a single call -
+/// in a single call –
 /// for quick access from our internal API functions,
 /// or any additional functions and mixins you add to your project.
 /// Pass user input and configuration maps to the compiler,

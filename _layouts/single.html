@@ -14,6 +14,14 @@ layout: default
   {% endunless %}
 {% endif %}
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-6670011780914577",
+    enable_page_level_ads: true
+  });
+</script>
+
 <div id="main" role="main">
   {% include sidebar.html %}
 
@@ -28,25 +36,71 @@ layout: default
         <header>
           {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
           {% if page.read_time %}
-            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+            <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
           {% endif %}
         </header>
       {% endunless %}
 
       <section class="page__content" itemprop="text">
-        {% if page.toc %}
-          <aside class="sidebar__right">
-            <nav class="toc">
-              <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label }}</h4></header>
-              {% include toc.html sanitize=true html=content h_min=2 h_max=3 class="toc__menu" %}
-            </nav>
-          </aside>
-        {% endif %}
-		<div class="notice" id="translations" style="display: none;"></div>
-		<script language="JavaScript" src="/assets/js/translations.js"></script>
-		<p class="notice">If you have any issues or problems, please read our <a href="/help/faq">FAQ</a> or ask on <a href="/help/discord/">Discord</a>.</p>
+        
+        {% assign split_path = page.path | split: "/" %}
+        {% assign locale = split_path[1] %}
+
+        {% for link in site.data.navigation[locale].bottom %}
+          {% if link.url contains 'http' %}
+            {% assign domain = '' %}
+          {% else %}
+            {% assign domain = site.url | append: site.baseurl %}
+          {% endif %}
+          <div class ="notice">{{ link.title }}</div>
+        {% endfor %}
+
+        <center>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-6670011780914577"
+          data-ad-slot="2889110246"
+          data-ad-format="auto">
+        </ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+          <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-6670011780914577"
+          data-ad-slot="8734909100"
+          data-ad-format="auto">
+        </ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+        </center>
+
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
+
+        <center>
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-6670011780914577"
+          data-ad-slot="7670623049"
+          data-ad-format="horizontal">
+        </ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+        <ins class="adsbygoogle"
+          style="display:block"
+          data-ad-client="ca-pub-6670011780914577"
+          data-ad-slot="9147356245"
+          data-ad-format="horizontal">
+        </ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+        </center>
+
       </section>
 
       <footer class="page__meta">
@@ -55,9 +109,9 @@ layout: default
         {% endif %}
         {% include page__taxonomy.html %}
         {% if page.last_modified_at %}
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.last_modified_at | date: "%Y-%m-%d" }}">{{ page.last_modified_at | date: "%B %d, %Y" }}</time></p>
         {% elsif page.date %}
-          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Updated:" }}</strong> <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %d, %Y" }}</time></p>
         {% endif %}
       </footer>
 
@@ -66,11 +120,11 @@ layout: default
       {% include post_pagination.html %}
     </div>
 
-    {% if jekyll.environment == 'production' and site.comments.provider and page.comments %}
+    {% if site.comments.provider and page.comments %}
       {% include comments.html %}
     {% endif %}
   </article>
-
+  
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">

@@ -30,7 +30,7 @@
 ///
 /// Normalization does not check that values are valid,
 /// which will happen in the Su math layer.
-/// These functions merely look for known Susy syntax -
+/// These functions merely look for known Susy syntax –
 /// returning a map with those shorthand values
 /// converted into low-level data for Su.
 /// For example `span: all` and `location: first`
@@ -190,19 +190,19 @@
 // Normalize Spread
 // ----------------
 /// Normalize `spread` shorthand for Su.
-/// Su spread syntax only allows the numbers `-1`, `0`, or `1` -
+/// Su spread syntax only allows the numbers `-1`, `0`, or `1` –
 /// representing the number of gutters covered
 /// in relation to columns spanned.
 ///
-/// Susy spread syntax also allows keywords for each value -
-/// `narrow` for `-1`, `wide` for `0`, or `wider` for `1` -
+/// Susy spread syntax also allows keywords for each value –
+/// `narrow` for `-1`, `wide` for `0`, or `wider` for `1` –
 /// which will be converted to their respective integers
 /// in normalization.
 ///
 /// @group x-normal
 ///
 /// @param {0 | 1 | -1 | 'narrow' | 'wide' | 'wider'} $spread -
-///   Spread across adjacent gutters, relative to a column-count -
+///   Spread across adjacent gutters, relative to a column-count —
 ///   either `narrow` (-1), `wide` (0), or `wider` (1)
 ///
 /// @return {number} -

@@ -5,7 +5,7 @@
 ///
 /// **Columns** no longer accept a single number, like `12`,
 /// but use a syntax more similar to the new
-/// CSS [grid-template-columns][columns] -
+/// CSS [grid-template-columns][columns] –
 /// a list of relative sizes for each column on the grid.
 /// Unitless numbers in Susy act very similar to `fr` units in CSS,
 /// and the `susy-repeat()` function (similar to the css `repeat()`)
@@ -20,8 +20,8 @@
 ///   while the middle 4 are equal fractions of the remainder.
 ///   Susy will output `calc()` values in order to achieve this.
 ///
-/// **Gutters** haven't changed -
-/// a single fraction or explicit width -
+/// **Gutters** haven't changed –
+/// a single fraction or explicit width –
 /// but the `calc()` output feature
 /// means you can now use any combination of units and fractions
 /// to create static-gutters on a fluid grid, etc.
@@ -161,10 +161,10 @@
 ///   );
 ///
 /// @example scss - inside-static gutters
-///   // 6 symmetrical, fluid columns
-///   // gutters are static, triggering calc()
-///   // elements span equal columns & gutters
-///   // containers span equal columns & gutters
+///   // 6 symmetrical, fluid columns…
+///   // gutters are static, triggering calc()…
+///   // elements span equal columns & gutters…
+///   // containers span equal columns & gutters…
 ///   $susy: (
 ///     'columns': susy-repeat(6),
 ///     'gutters': 0.5em,
@@ -230,7 +230,7 @@ $susy: () !default;
 // Susy Defaults
 // -------------
 /// Configuration map of Susy factory defaults.
-/// Do not override this map directly -
+/// Do not override this map directly –
 /// use `$susy` for user and project setting overrides.
 ///
 /// @access private
@@ -256,12 +256,12 @@ $_susy-defaults: (
 /// Return a combined map of Susy settings,
 /// based on the factory defaults (`$_susy-defaults`),
 /// user-defined project configuration (`$susy`),
-/// and any local overrides required -
+/// and any local overrides required –
 /// such as a configuration map passed into a function.
 ///
 /// @group a-config
 ///
-/// @param {maps} $overrides -
+/// @param {maps} $overrides… -
 ///   Optional map override of global configuration settings.
 ///   See `$susy` above for properties.
 ///
