@@ -15,8 +15,8 @@ DSiMenu++ is a homebrew application that can launch homebrew and retail ROMs, an
 
 ## Instructions
 
-1. Insert your SDNAND SD card into your PC
-2. Copy *the contents of* `CFW - SDNAND root` from the DSiMenu++ `.7z` file to the root of your SD NAND (<2GB) SD card
+1. Insert your SD card into your PC
+2. Copy *the contents of* `CFW - SDNAND root` from the DSiMenu++ `.7z` file to the root of your SD card
 3. Copy the `_nds` and `roms` folders from the DSiMenu++ `.7z` file to the root of your SD card
 4. Unplug your SD card, and insert it in your DSi
 5. Power on your system

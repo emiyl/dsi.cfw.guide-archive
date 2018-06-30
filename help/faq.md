@@ -35,7 +35,7 @@ Ideally there would be a tool, or an update to the Unlaunch installer itself, th
 
 Uninstalling via twlnf would trigger twlnf's NAND update bug, breaking the option to install unlaunch in the future, and NAND backups are not only dangerous but is also very stressful on the DSi's components.
 
-## fuse-3ds fails launch, or to mount my NAND backup!
+## fuse-3ds fails to launch, or to mount my NAND backup!
 
 This can happen for several reasons, but the most common is that your PC is missing Windows Updates that are required for the program to run.
 
